@@ -16,20 +16,37 @@ const LoginPage: React.FC = () => {
   // Get the redirect path from the location state, or default to '/'
   const from = location.state?.from?.pathname || '/';
 
+  const validateEmail = (email: string): boolean => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError(null);
+
+    // Basic validation
+    if (!validateEmail(email)) {
+      setError('Please enter a valid email address.');
+      return;
+    }
+
+    if (password.length < 6) {
+      setError('Password must be at least 6 characters long.');
+      return;
+    }
+
     setIsLoading(true);
     
     try {
-      const success = await login(email, password);
+      const { success, error: loginError } = await login(email, password);
       if (success) {
         navigate(from, { replace: true });
       } else {
-        setError('Invalid email or password. Please try again.');
+        setError(loginError || 'An error occurred during login. Please try again.');
       }
     } catch (err) {
-      setError('An error occurred. Please try again later.');
+      setError('An unexpected error occurred. Please try again later.');
       console.error(err);
     } finally {
       setIsLoading(false);
@@ -53,8 +70,17 @@ const LoginPage: React.FC = () => {
         </div>
         
         {error && (
-          <div className="mb-4 bg-red-50 border-l-4 border-red-500 p-4 text-red-700">
-            <p>{error}</p>
+          <div className="mb-4 bg-red-50 border-l-4 border-red-500 p-4">
+            <div className="flex">
+              <div className="flex-shrink-0">
+                <svg className="h-5 w-5 text-red-400" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <div className="ml-3">
+                <p className="text-sm text-red-700">{error}</p>
+              </div>
+            </div>
           </div>
         )}
         
@@ -75,7 +101,7 @@ const LoginPage: React.FC = () => {
                   autoComplete="email"
                   required
                   value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  onChange={(e) => setEmail(e.target.value.trim())}
                   className="block w-full pl-10 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-green-500 focus:border-green-500"
                   placeholder="you@example.com"
                 />

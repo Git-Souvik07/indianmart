@@ -16,7 +16,7 @@ interface AuthUser {
 interface AuthContextType {
   user: AuthUser | null;
   isAuthenticated: boolean;
-  login: (email: string, password: string) => Promise<boolean>;
+  login: (email: string, password: string) => Promise<{ success: boolean; error?: string }>;
   register: (name: string, email: string, password: string) => Promise<boolean>;
   logout: () => Promise<void>;
   supabase: SupabaseClient;
@@ -69,22 +69,33 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     };
   }, []);
 
-  const login = async (email: string, password: string): Promise<boolean> => {
+  const login = async (email: string, password: string): Promise<{ success: boolean; error?: string }> => {
     try {
       const { data, error } = await supabase.auth.signInWithPassword({
-        email,
+        email: email.trim().toLowerCase(),
         password
       });
 
       if (error) {
-        console.error('Login error:', error.message);
-        return false;
+        if (error.message === 'Invalid login credentials') {
+          return {
+            success: false,
+            error: 'The email or password you entered is incorrect. Please check your credentials and try again.'
+          };
+        }
+        return {
+          success: false,
+          error: 'An error occurred during login. Please try again.'
+        };
       }
 
-      return true;
+      return { success: true };
     } catch (error) {
       console.error('Login error:', error);
-      return false;
+      return {
+        success: false,
+        error: 'An unexpected error occurred. Please try again later.'
+      };
     }
   };
 
