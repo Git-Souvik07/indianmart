@@ -1,3 +1,4 @@
+link : https://stalwart-melomakarona-45ccd1.netlify.app
 # Fresh Cart - Indian Grocery Store
 
 Fresh Cart is a modern e-commerce platform built with React, TypeScript, and Tailwind CSS, offering a seamless shopping experience for Indian groceries and household items.
