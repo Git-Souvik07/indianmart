@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Instagram, Mail, Phone, MapPin, ShoppingBag } from 'lucide-react';
+import { Facebook, Twitter, Instagram, ShoppingBag } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-800 text-white pt-12 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
             <div className="flex items-center mb-4">
@@ -79,25 +79,6 @@ const Footer: React.FC = () => {
                 <Link to="/products?category=Grains" className="text-gray-300 hover:text-green-500 transition-colors">
                   Grains & Pulses
                 </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Contact Info */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Contact Us</h3>
-            <ul className="space-y-3">
-              <li className="flex items-start">
-                <MapPin className="h-5 w-5 mr-2 text-green-500 mt-0.5" />
-                <span className="text-gray-300">123 Grocery Street, Bangalore, Karnataka, India - 560001</span>
-              </li>
-              <li className="flex items-center">
-                <Phone className="h-5 w-5 mr-2 text-green-500" />
-                <span className="text-gray-300">+91 9876543210</span>
-              </li>
-              <li className="flex items-center">
-                <Mail className="h-5 w-5 mr-2 text-green-500" />
-                <span className="text-gray-300">support@freshcart.com</span>
               </li>
             </ul>
           </div>
