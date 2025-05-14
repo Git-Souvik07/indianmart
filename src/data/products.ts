@@ -245,7 +245,7 @@ export const products: Product[] = [
     name: 'Starfruit',
     description: 'Exotic and tangy starfruit, ideal for garnishing and snacking.',
     price: 100, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/1675216/pexels-photo-1675216.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://static.scientificamerican.com/sciam/cache/file/37BE56C7-BAA4-4100-9FCF2AE1097F0722_source.jpg?w=1200',
     category: 'Fruits',
     stock: 20,
     rating: 4.5,
