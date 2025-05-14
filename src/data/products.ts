@@ -272,7 +272,7 @@ export const products: Product[] = [
     stock: 25,
     rating: 4.6,
     isPopular: true
-  },
+  }
 ];
 
 
