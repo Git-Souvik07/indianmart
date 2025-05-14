@@ -146,7 +146,7 @@ export const products: Product[] = [
     name: 'Lychee',
     description: 'Exotic and sweet lychees, perfect for desserts and drinks.',
     price: 180, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/5926/food-fruit-lychee.jpg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://plantsguru.com/cdn/shop/files/plantsguru-fruitplants-litchi.jpg?v=1735618378',
     category: 'Fruits',
     stock: 25,
     rating: 4.6,
