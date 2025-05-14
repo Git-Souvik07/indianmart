@@ -212,7 +212,7 @@ export const products: Product[] = [
     name: 'Raspberries',
     description: 'Delicate and tangy raspberries, perfect for desserts and jams.',
     price: 300, // Price in rupees per box
-    image: 'https://images.pexels.com/photos/1161567/pexels-photo-1161567.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://images.immediate.co.uk/production/volatile/sites/30/2023/07/Raspberries-02-4bc2ac6.jpg?quality=90&resize=440,400',
     category: 'Fruits',
     stock: 15,
     rating: 4.9,
