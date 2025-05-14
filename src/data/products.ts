@@ -190,7 +190,7 @@ export const products: Product[] = [
     name: 'Spinach',
     description: 'Nutritious and fresh spinach leaves, great for soups and smoothies.',
     price: 30, // Price in rupees
-    image: 'https://images.pexels.com/photos/551401/pexels-photo-551401.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://freshleafuae.com/wp-content/uploads/2024/08/spinach-freshleaf-dubai-uae-img01.jpg',
     category: 'Vegetables',
     stock: 60,
     rating: 4.8,
