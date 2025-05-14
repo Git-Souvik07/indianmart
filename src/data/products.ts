@@ -221,7 +221,7 @@ export const products: Product[] = [
   {
     id: 19,
     name: 'Ginger',
-    description: 'Crisp and flavorful red onions, perfect for salads and cooking. (Price in kilogram)',
+    description: 'Ginger seeds/Ginger plant seedsGinger may have potential uses for various conditions however, more human studies are needed to support its true extent in humans.This can be grown on variety of soils, including the well-drained lateritic soils of Goa. But the sandy loam is the best soil type for its cultivation. Season: Ginger can be grown both under rainfed and irrigated conditions.Fill the container with the prepared soil and plant the seeds. (Price in kilogram)',
     price: 45, // Price in rupees
     image: 'https://previews.123rf.com/images/prasannapatil/prasannapatil2102/prasannapatil210203942/164391362-ginger-in-indian-vegetable-market.jpg',
     category: 'Vegetables',
