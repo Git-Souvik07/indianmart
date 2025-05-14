@@ -175,6 +175,17 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 40,
+    name: 'Capsicum (Red)',
+    description: 'Bright red capsicums, great for salads and pasta.',
+    price: 70, // Price in rupees
+    image: 'https://images.pexels.com/photos/594583/pexels-photo-594583.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 30,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
     id: 14,
     name: 'Baby Carrots',
     description: 'Sweet and tender baby carrots, ideal for snacks and side dishes.',
