@@ -643,7 +643,7 @@ export const products: Product[] = [
     name: 'Milk',
     description: 'Fresh and pure cow’s milk, essential for a healthy diet.',
     price: 50, // Price in rupees per liter
-    image: 'https://images.pexels.com/photos/594696/pexels-photo-594696.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSc2ZWKFC1rsFIF4jHkASrQMqL13bS0vqEkVV2cP3YfN5saKQcwpP-WP7QrQfmIWQ6cnRh2IU4QsY2vYEqcmlKu1MOemOlSsrezS_tcFxCBNhjXWqmmnymV',
     category: 'Dairy',
     stock: 100,
     rating: 4.8,
@@ -735,6 +735,116 @@ export const products: Product[] = [
     category: 'Dairy',
     stock: 70,
     rating: 4.5,
+    isPopular: true
+  },
+  {
+    id: 99,
+    name: 'Cottage Cheese',
+    description: 'Soft and creamy cottage cheese, rich in protein and flavor.',
+    price: 90, // Price in rupees per 200g
+    image: 'https://images.pexels.com/photos/3769051/pexels-photo-3769051.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 45,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
+    id: 100,
+    name: 'Sour Cream',
+    description: 'Tangy and creamy sour cream, perfect for dips and baking.',
+    price: 120, // Price in rupees per 200g
+    image: 'https://images.pexels.com/photos/1218605/pexels-photo-1218605.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 20,
+    rating: 4.6,
+    isPopular: false
+  },
+  {
+    id: 101,
+    name: 'Ricotta Cheese',
+    description: 'Light and fluffy ricotta cheese, ideal for pasta and desserts.',
+    price: 150, // Price in rupees per 250g
+    image: 'https://images.pexels.com/photos/1628041/pexels-photo-1628041.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 15,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 102,
+    name: 'Skimmed Milk',
+    description: 'Low-fat skimmed milk, great for health-conscious individuals.',
+    price: 40, // Price in rupees per liter
+    image: 'https://images.pexels.com/photos/1339098/pexels-photo-1339098.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 60,
+    rating: 4.5,
+    isPopular: false
+  },
+  {
+    id: 103,
+    name: 'Mozzarella Cheese',
+    description: 'Soft and stretchy mozzarella cheese, perfect for pizzas.',
+    price: 200, // Price in rupees per 250g
+    image: 'https://images.pexels.com/photos/1184081/pexels-photo-1184081.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 35,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 104,
+    name: 'Goat Milk',
+    description: 'Rich and nutritious goat milk, great for overall health.',
+    price: 70, // Price in rupees per liter
+    image: 'https://images.pexels.com/photos/1529361/pexels-photo-1529361.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 25,
+    rating: 4.6,
+    isPopular: false
+  },
+  {
+    id: 105,
+    name: 'Probiotic Yogurt',
+    description: 'Healthy and probiotic-rich yogurt for better digestion.',
+    price: 60, // Price in rupees per 400g
+    image: 'https://images.pexels.com/photos/159077/pexels-photo-159077.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 40,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
+    id: 106,
+    name: 'Milk Powder',
+    description: 'Convenient and long-lasting milk powder for multiple uses.',
+    price: 450, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/250185/pexels-photo-250185.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 20,
+    rating: 4.5,
+    isPopular: false
+  },
+  {
+    id: 107,
+    name: 'Cream Cheese',
+    description: 'Smooth and creamy cheese, perfect for bagels and desserts.',
+    price: 250, // Price in rupees per 200g
+    image: 'https://images.pexels.com/photos/691500/pexels-photo-691500.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 30,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 108,
+    name: 'Curd',
+    description: 'Fresh and homemade curd, essential for traditional meals.',
+    price: 30, // Price in rupees per 500g
+    image: 'https://images.pexels.com/photos/1346839/pexels-photo-1346839.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 80,
+    rating: 4.7,
     isPopular: true
   },
   {
