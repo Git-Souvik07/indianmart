@@ -312,7 +312,7 @@ export const products: Product[] = [
     name: 'Celery',
     description: 'Crunchy and fresh celery, perfect for soups and salads.',
     price: 60, // Price in rupees
-    image: 'https://media.npr.org/assets/img/2016/06/13/celery_custom-8f0a770aa8a6091316802b63fb7a0f8e9edcc6ec.jpg',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrSkZvJXnl7X7qv2W4e_Ewlsf08vid7WFyBg&s',
     category: 'Vegetables',
     stock: 20,
     rating: 4.5,
