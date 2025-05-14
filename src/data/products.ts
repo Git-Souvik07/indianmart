@@ -654,7 +654,7 @@ export const products: Product[] = [
     name: 'Cheese',
     description: 'Fresh and flavorful cheese, ideal for sandwiches and pizzas.',
     price: 120, // Price in rupees per 200g
-    image: 'https://images.pexels.com/photos/209339/pexels-photo-209339.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://m.media-amazon.com/images/I/61+AzywctoL._AC_UF894,1000_QL80_.jpg',
     category: 'Dairy',
     stock: 50,
     rating: 4.6,
