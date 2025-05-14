@@ -208,6 +208,17 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 35,
+    name: 'Spring Onions',
+    description: 'Crisp and flavorful spring onions, perfect for garnishing and stir-fries.',
+    price: 20, // Price in rupees
+    image: 'https://images.pexels.com/photos/744417/pexels-photo-744417.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 60,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
     id: 14,
     name: 'Baby Carrots',
     description: 'Sweet and tender baby carrots, ideal for snacks and side dishes.',
