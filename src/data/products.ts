@@ -379,7 +379,7 @@ export const products: Product[] = [
     name: 'Green Beans',
     description: 'Crisp and tender green beans, ideal for stir-fries and steaming.',
     price: 50, // Price in rupees
-    image: 'https://images.pexels.com/photos/574577/pexels-photo-574577.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.jiomart.com/images/product/original/590000157/french-beans-500-g-product-images-o590000157-p590000157-0-202411061150.jpg?im=Resize=(1000,1000)',
     category: 'Vegetables',
     stock: 45,
     rating: 4.7,
