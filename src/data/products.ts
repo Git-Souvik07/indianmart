@@ -312,7 +312,7 @@ export const products: Product[] = [
     name: 'Celery',
     description: 'Crunchy and fresh celery, perfect for soups and salads.',
     price: 60, // Price in rupees
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrSkZvJXnl7X7qv2W4e_Ewlsf08vid7WFyBg&s',
+    image: 'https://media.npr.org/assets/img/2016/06/13/celery_custom-8f0a770aa8a6091316802b63fb7a0f8e9edcc6ec.jpg',
     category: 'Vegetables',
     stock: 20,
     rating: 4.5,
@@ -323,7 +323,7 @@ export const products: Product[] = [
     name: 'Bitter Gourd',
     description: 'Fresh and nutritious bitter gourd, perfect for health-conscious recipes.',
     price: 45, // Price in rupees
-    image: 'https://images.pexels.com/photos/7237065/pexels-photo-7237065.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrSkZvJXnl7X7qv2W4e_Ewlsf08vid7WFyBg&s',
     category: 'Vegetables',
     stock: 35,
     rating: 4.3,
