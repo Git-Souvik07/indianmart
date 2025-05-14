@@ -650,6 +650,94 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 91,
+    name: 'Cheese',
+    description: 'Fresh and flavorful cheese, ideal for sandwiches and pizzas.',
+    price: 120, // Price in rupees per 200g
+    image: 'https://images.pexels.com/photos/209339/pexels-photo-209339.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 50,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
+    id: 92,
+    name: 'Yogurt',
+    description: 'Creamy and healthy yogurt, great for digestion and immunity.',
+    price: 40, // Price in rupees per 500g
+    image: 'https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 80,
+    rating: 4.5,
+    isPopular: true
+  },
+  {
+    id: 93,
+    name: 'Cream',
+    description: 'Rich and smooth cream, perfect for cooking and desserts.',
+    price: 60, // Price in rupees per 200ml
+    image: 'https://images.pexels.com/photos/5938/food-healthy-milk-drink.jpg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 30,
+    rating: 4.4,
+    isPopular: false
+  },
+  {
+    id: 94,
+    name: 'Ghee',
+    description: 'Traditional clarified butter, great for cooking and frying.',
+    price: 500, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/3184161/pexels-photo-3184161.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 25,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 95,
+    name: 'Ice Cream',
+    description: 'Delicious and creamy ice cream, available in various flavors.',
+    price: 100, // Price in rupees per 500ml
+    image: 'https://images.pexels.com/photos/1278686/pexels-photo-1278686.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 40,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
+    id: 96,
+    name: 'Condensed Milk',
+    description: 'Sweetened condensed milk, perfect for desserts and beverages.',
+    price: 90, // Price in rupees per 400g
+    image: 'https://images.pexels.com/photos/1114636/pexels-photo-1114636.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 35,
+    rating: 4.6,
+    isPopular: false
+  },
+  {
+    id: 97,
+    name: 'Whey Powder',
+    description: 'High-protein whey powder, great for fitness enthusiasts.',
+    price: 2000, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/4165869/pexels-photo-4165869.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 15,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 98,
+    name: 'Buttermilk',
+    description: 'Cool and refreshing buttermilk, ideal for hot days.',
+    price: 20, // Price in rupees per 500ml
+    image: 'https://images.pexels.com/photos/3650774/pexels-photo-3650774.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 70,
+    rating: 4.5,
+    isPopular: true
+  },
+  {
     id: 21,
     name: 'Zucchini',
     description: 'Tender and fresh zucchini, perfect for grilling and baking.',
