@@ -323,7 +323,16 @@ export const products: Product[] = [
     name: 'Bottle Gourd',
     description: 'Fresh and light bottle gourd, ideal for soups and curries.',
     price: 35, // Price in rupees
-    image: 'https://images.pexels.com/photos/4157696/pexels-photo-4157696.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '{
+    id: 32,
+    name: 'Bottle Gourd',
+    description: 'Fresh and light bottle gourd, ideal for soups and curries.',
+    price: 35, // Price in rupees
+    image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQyp_4kQNySMqfRagb_Tb5aCNoVw2Ltz7ibG83a-KpHtZKm_Iz2ej_h5Kut4tle2ZMJw3T5qH8y8nDuPhlCd_F6dg',
+    category: 'Vegetables',
+    stock: 30,
+    rating: 4.5,
+    isPopular: true',
     category: 'Vegetables',
     stock: 30,
     rating: 4.5,
