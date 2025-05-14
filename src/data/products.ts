@@ -196,7 +196,17 @@ export const products: Product[] = [
     rating: 4.8,
     isPopular: true
   },
-
+{
+    id: 36,
+    name: 'Chili Peppers',
+    description: 'Spicy and fresh chili peppers, great for adding heat to dishes.',
+    price: 50, // Price in rupees
+    image: 'https://images.pexels.com/photos/2887549/pexels-photo-2887549.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 25,
+    rating: 4.7,
+    isPopular: true
+  },
   {
     id: 14,
     name: 'Baby Carrots',
