@@ -168,7 +168,7 @@ export const products: Product[] = [
     name: 'Cherries',
     description: 'Sweet and succulent cherries, great for snacking and baking.',
     price: 300, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/1092744/pexels-photo-1092744.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJBqslzd3b1_nAsY9YUO2tMyfYBH0wykH3hw&s',
     category: 'Fruits',
     stock: 15,
     rating: 4.9,
