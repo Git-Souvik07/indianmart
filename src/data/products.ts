@@ -374,6 +374,17 @@ export const products: Product[] = [
     rating: 4.5,
     isPopular: true
   },
+   {
+    id: 26,
+    name: 'Green Beans',
+    description: 'Crisp and tender green beans, ideal for stir-fries and steaming.',
+    price: 50, // Price in rupees
+    image: 'https://images.pexels.com/photos/574577/pexels-photo-574577.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 45,
+    rating: 4.7,
+    isPopular: true
+  },
   {
     id: 21,
     name: 'Zucchini',
