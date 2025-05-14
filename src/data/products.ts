@@ -157,7 +157,7 @@ export const products: Product[] = [
     name: 'Guavas',
     description: 'Juicy and fiber-rich guavas, ideal for snacks and juices.',
     price: 70, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/4061526/pexels-photo-4061526.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://img3.exportersindia.com/product_images/bc-full/2022/1/9832697/guava-1643117751-6173467.jpeg',
     category: 'Fruits',
     stock: 50,
     rating: 4.5,
