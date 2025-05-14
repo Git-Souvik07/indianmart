@@ -290,7 +290,7 @@ export const products: Product[] = [
     name: 'Pumpkin',
     description: 'Bright and tender pumpkins, great for soups and pies.',
     price: 40, // Price in rupees
-    image: 'https://images.pexels.com/photos/1600729/pexels-photo-1600729.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.healthyfood.com/wp-content/uploads/2017/03/What-to-do-with-pumpkin.jpg',
     category: 'Vegetables',
     stock: 20,
     rating: 4.7,
