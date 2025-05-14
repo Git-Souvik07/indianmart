@@ -223,7 +223,7 @@ export const products: Product[] = [
     name: 'Turnip',
     description: 'Sweet and crunchy turnips, great for soups and roasting.',
     price: 25, // Price in rupees
-    image: 'https://images.pexels.com/photos/4110296/pexels-photo-4110296.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.farmersstop.com/cdn/shop/products/29049712083027_859x700.jpg?v=1744444908',
     category: 'Vegetables',
     stock: 35,
     rating: 4.3,
