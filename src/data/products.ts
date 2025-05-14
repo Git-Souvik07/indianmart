@@ -639,6 +639,17 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 89,
+    name: 'Milk',
+    description: 'Fresh and pure cow’s milk, essential for a healthy diet.',
+    price: 50, // Price in rupees per liter
+    image: 'https://images.pexels.com/photos/594696/pexels-photo-594696.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Dairy',
+    stock: 100,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
     id: 21,
     name: 'Zucchini',
     description: 'Tender and fresh zucchini, perfect for grilling and baking.',
