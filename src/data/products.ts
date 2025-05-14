@@ -32,6 +32,116 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 69,
+    name: 'Apples',
+    description: 'Fresh and crispy apples, perfect for snacking and desserts.',
+    price: 150, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/39803/red-apple-fruit-ripe-39803.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 50,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
+    id: 70,
+    name: 'Oranges',
+    description: 'Juicy and tangy oranges, full of Vitamin C.',
+    price: 80, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/42059/background-beverage-citrus-close-up-42059.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 60,
+    rating: 4.5,
+    isPopular: true
+  },
+  {
+    id: 71,
+    name: 'Mangoes',
+    description: 'Sweet and juicy mangoes, the king of fruits.',
+    price: 120, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/1238005/pexels-photo-1238005.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 40,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 72,
+    name: 'Strawberries',
+    description: 'Fresh and sweet strawberries, perfect for desserts.',
+    price: 250, // Price in rupees per box
+    image: 'https://images.pexels.com/photos/158251/strawberries-frisch-ripe-sweet-158251.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 30,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 73,
+    name: 'Pineapples',
+    description: 'Tropical and juicy pineapples, great for snacks and smoothies.',
+    price: 100, // Price in rupees per piece
+    image: 'https://images.pexels.com/photos/615674/pexels-photo-615674.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 25,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
+    id: 74,
+    name: 'Grapes',
+    description: 'Fresh and juicy grapes, perfect for snacking and juicing.',
+    price: 90, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/216651/pexels-photo-216651.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 50,
+    rating: 4.5,
+    isPopular: false
+  },
+  {
+    id: 75,
+    name: 'Pomegranates',
+    description: 'Rich and antioxidant-packed pomegranates.',
+    price: 200, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/937661/pexels-photo-937661.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 35,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
+    id: 76,
+    name: 'Papayas',
+    description: 'Nutritious and sweet papayas, great for digestion.',
+    price: 60, // Price in rupees per piece
+    image: 'https://images.pexels.com/photos/1187959/pexels-photo-1187959.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 40,
+    rating: 4.4,
+    isPopular: false
+  },
+  {
+    id: 77,
+    name: 'Watermelons',
+    description: 'Refreshing and hydrating watermelons, perfect for summer.',
+    price: 40, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/2255923/pexels-photo-2255923.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 70,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
+    id: 78,
+    name: 'Kiwi',
+    description: 'Tangy and nutrient-packed kiwi, great for immunity.',
+    price: 30, // Price in rupees per piece
+    image: 'https://images.pexels.com/photos/1343510/pexels-photo-1343510.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 30,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
     id: 79,
     name: 'Lychee',
     description: 'Exotic and sweet lychees, perfect for desserts and drinks.',
