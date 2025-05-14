@@ -342,6 +342,17 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 60,
+    name: 'Swiss Chard',
+    description: 'Vibrant and nutritious Swiss chard, ideal for steaming and sautés.',
+    price: 55, // Price in rupees
+    image: 'https://images.pexels.com/photos/260176/pexels-photo-260176.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 25,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
     id: 28,
     name: 'Sweet Corn',
     description: 'Juicy and sweet corn, perfect for roasting and soups.',
