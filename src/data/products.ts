@@ -335,7 +335,7 @@ export const products: Product[] = [
     name: 'Cabbage',
     description: 'Fresh green cabbage, great for salads and cooking.',
     price: 30, // Price in rupees
-    image: 'https://images.pexels.com/photos/3721667/pexels-photo-3721667.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://images.squarespace-cdn.com/content/v1/60d5fe5c9e25003cd4b3b2ed/1634316438635-27FNWQSMMPRHWXB0MLGJ/green-cabbage-envato.jpg',
     category: 'Vegetables',
     stock: 35,
     rating: 4.5,
