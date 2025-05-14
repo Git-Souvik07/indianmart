@@ -214,16 +214,16 @@ export const products: Product[] = [
     price: 35, // Price in rupees
     image: 'https://www.beaumont.org/images/default-source/news/eggplant-fotm.jpg?sfvrsn=3f0c7bef_2',
     category: 'Vegetables',
-    stock: 40,
+    stock: 40 (Price in rupees),
     rating: 4.4,
     isPopular: false
   },
   {
     id: 19,
-    name: 'Red Onions',
+    name: 'Ginger',
     description: 'Crisp and flavorful red onions, perfect for salads and cooking.',
-    price: 25, // Price in rupees
-    image: 'https://images.pexels.com/photos/5794555/pexels-photo-5794555.jpeg?auto=compress&cs=tinysrgb&w=600',
+    price: 45, // Price in rupees
+    image: 'https://previews.123rf.com/images/prasannapatil/prasannapatil2102/prasannapatil210203942/164391362-ginger-in-indian-vegetable-market.jpg',
     category: 'Vegetables',
     stock: 70,
     rating: 4.5,
