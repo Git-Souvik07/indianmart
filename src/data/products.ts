@@ -308,6 +308,17 @@ export const products: Product[] = [
     isPopular: false
   },
   {
+    id: 47,
+    name: 'Celery',
+    description: 'Crunchy and fresh celery, perfect for soups and salads.',
+    price: 60, // Price in rupees
+    image: 'https://images.pexels.com/photos/1441119/pexels-photo-1441119.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 20,
+    rating: 4.5,
+    isPopular: false
+  },
+  {
     id: 29,
     name: 'Peas',
     description: 'Fresh green peas, great for curries and side dishes.',
