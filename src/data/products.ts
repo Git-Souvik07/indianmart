@@ -31,7 +31,116 @@ export const products: Product[] = [
     rating: 4.5,
     isPopular: true
   },
-  
+  {
+    id: 79,
+    name: 'Lychee',
+    description: 'Exotic and sweet lychees, perfect for desserts and drinks.',
+    price: 180, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/5926/food-fruit-lychee.jpg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 25,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
+    id: 80,
+    name: 'Guavas',
+    description: 'Juicy and fiber-rich guavas, ideal for snacks and juices.',
+    price: 70, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/4061526/pexels-photo-4061526.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 50,
+    rating: 4.5,
+    isPopular: false
+  },
+  {
+    id: 81,
+    name: 'Cherries',
+    description: 'Sweet and succulent cherries, great for snacking and baking.',
+    price: 300, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/1092744/pexels-photo-1092744.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 15,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 82,
+    name: 'Blackberries',
+    description: 'Rich and juicy blackberries, perfect for smoothies and desserts.',
+    price: 250, // Price in rupees per box
+    image: 'https://images.pexels.com/photos/594610/pexels-photo-594610.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 20,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 83,
+    name: 'Peaches',
+    description: 'Soft and juicy peaches, ideal for snacking and baking.',
+    price: 150, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 35,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
+    id: 84,
+    name: 'Plums',
+    description: 'Tangy and sweet plums, great for snacking and preserves.',
+    price: 120, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/41957/plums-fruits-garden-healthy-41957.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 40,
+    rating: 4.6,
+    isPopular: false
+  },
+  {
+    id: 85,
+    name: 'Raspberries',
+    description: 'Delicate and tangy raspberries, perfect for desserts and jams.',
+    price: 300, // Price in rupees per box
+    image: 'https://images.pexels.com/photos/1161567/pexels-photo-1161567.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 15,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 86,
+    name: 'Cranberries',
+    description: 'Tart and tangy cranberries, great for sauces and baking.',
+    price: 350, // Price in rupees per box
+    image: 'https://images.pexels.com/photos/1920163/pexels-photo-1920163.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 10,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 87,
+    name: 'Cantaloupe',
+    description: 'Juicy and refreshing cantaloupe, perfect for summer snacks.',
+    price: 50, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/718751/pexels-photo-718751.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 60,
+    rating: 4.4,
+    isPopular: false
+  },
+  {
+    id: 88,
+    name: 'Starfruit',
+    description: 'Exotic and tangy starfruit, ideal for garnishing and snacking.',
+    price: 100, // Price in rupees per kg
+    image: 'https://images.pexels.com/photos/1675216/pexels-photo-1675216.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Fruits',
+    stock: 20,
+    rating: 4.5,
+    isPopular: false
+  }
   {
     id: 3,
     name: 'Basmati Rice',
