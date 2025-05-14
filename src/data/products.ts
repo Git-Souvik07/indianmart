@@ -219,6 +219,17 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 34,
+    name: 'Turnip',
+    description: 'Sweet and crunchy turnips, great for soups and roasting.',
+    price: 25, // Price in rupees
+    image: 'https://images.pexels.com/photos/4110296/pexels-photo-4110296.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 35,
+    rating: 4.3,
+    isPopular: false
+  },
+  {
     id: 14,
     name: 'Baby Carrots',
     description: 'Sweet and tender baby carrots, ideal for snacks and side dishes.',
