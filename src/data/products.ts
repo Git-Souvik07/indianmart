@@ -214,7 +214,7 @@ export const products: Product[] = [
     price: 35, // Price in rupees
     image: 'https://www.beaumont.org/images/default-source/news/eggplant-fotm.jpg?sfvrsn=3f0c7bef_2',
     category: 'Vegetables',
-    stock: 40 'Price in rupees',
+    stock: 40 ,
     rating: 4.4,
     isPopular: false
   },
