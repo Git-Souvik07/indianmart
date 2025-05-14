@@ -536,7 +536,6 @@ export const products: Product[] = [
     image: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT02qjx8I12R1aouaJvkbIRzvCucMJ3DqWCCzZFTPb4rcyKBXPdD9PTKQNv2JfXr8LF_b6wNLOvKByQPSKAGvwLDQ',
     category: 'Vegetables',
     stock: 40,
-    stock  : 'not available',
     rating: 4.6,
     isPopular: true
   },
