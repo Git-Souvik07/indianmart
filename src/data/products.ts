@@ -212,7 +212,7 @@ export const products: Product[] = [
     name: 'Eggplant',
     description: 'Fresh and glossy eggplants, ideal for grilling and curries.',
     price: 35, // Price in rupees
-    image: 'https://images.pexels.com/photos/593324/pexels-photo-593324.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.beaumont.org/images/default-source/news/eggplant-fotm.jpg?sfvrsn=3f0c7bef_2',
     category: 'Vegetables',
     stock: 40,
     rating: 4.4,
