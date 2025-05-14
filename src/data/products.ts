@@ -212,7 +212,7 @@ export const products: Product[] = [
     name: 'Spring Onions',
     description: 'Crisp and flavorful spring onions, perfect for garnishing and stir-fries.',
     price: 20, // Price in rupees
-    image: 'https://images.pexels.com/photos/744417/pexels-photo-744417.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://kdahweb-static.kokilabenhospital.com/kdah-2019/tips/1606543206.png',
     category: 'Vegetables',
     stock: 60,
     rating: 4.6,
