@@ -190,7 +190,7 @@ export const products: Product[] = [
     name: 'Peaches',
     description: 'Soft and juicy peaches, ideal for snacking and baking.',
     price: 150, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://articles-1mg.gumlet.io/articles/wp-content/uploads/2017/08/rsz_shutterstock_297863489.jpg?compress=true&quality=80&w=640&dpr=2.6',
     category: 'Fruits',
     stock: 35,
     rating: 4.7,
