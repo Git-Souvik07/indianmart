@@ -346,7 +346,7 @@ export const products: Product[] = [
     name: 'Swiss Chard',
     description: 'Vibrant and nutritious Swiss chard, ideal for steaming and sautés.',
     price: 55, // Price in rupees
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCwG2pIyWOrugrXLDQuc9mScvhCcLplvdiBGQ2sOIWDNqoNtH4PWr2XZiJ-szU1A5gAtk&usqp=CAU',
+    image: 'https://green-connect.com.au/wp-content/uploads/2023/01/Swiss-Chard.jpg',
     category: 'Vegetables',
     stock: 25,
     rating: 4.6,
