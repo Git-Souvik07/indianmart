@@ -286,6 +286,17 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 31,
+    name: 'Pumpkin',
+    description: 'Bright and tender pumpkins, great for soups and pies.',
+    price: 40, // Price in rupees
+    image: 'https://images.pexels.com/photos/1600729/pexels-photo-1600729.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 20,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
     id: 18,
     name: 'Eggplant',
     description: 'Fresh and glossy eggplants, ideal for grilling and curries.',
