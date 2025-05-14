@@ -168,7 +168,7 @@ export const products: Product[] = [
     name: 'Capsicum (Yellow)',
     description: 'Vibrant yellow capsicums, perfect for salads and grilling.',
     price: 70, // Price in rupees
-    image: 'https://images.pexels.com/photos/594584/pexels-photo-594584.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.jiomart.com/images/product/original/590000145/yellow-capsicum-200-g-product-images-o590000145-p590000145-0-202412031940.jpg?im=Resize=(1000,1000)',
     category: 'Vegetables',
     stock: 30,
     rating: 4.7,
