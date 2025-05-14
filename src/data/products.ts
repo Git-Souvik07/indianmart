@@ -328,7 +328,7 @@ export const products: Product[] = [
     stock: 30,
     rating: 4.5,
     isPopular: true
-  }
+  },
   {
     id: 21,
     name: 'Zucchini',
