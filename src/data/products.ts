@@ -186,6 +186,18 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 37,
+    name: 'Mushrooms',
+    description: 'Fresh and earthy mushrooms, perfect for stir-fries and soups.',
+    price: 120, // Price in rupees
+    image: 'https://images.pexels.com/photos/594633/pexels-photo-594633.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 20,
+    rating: 4.8,
+    isPopular: true
+  },
+
+  {
     id: 14,
     name: 'Baby Carrots',
     description: 'Sweet and tender baby carrots, ideal for snacks and side dishes.',
