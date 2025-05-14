@@ -157,7 +157,7 @@ export const products: Product[] = [
     name: 'Green Bell Peppers',
     description: 'Crunchy and fresh green bell peppers, perfect for stir-fries and salads.',
     price: 60, // Price in rupees
-    image: 'https://images.pexels.com/photos/594579/pexels-photo-594579.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.jiomart.com/images/product/original/590003662/green-capsicum-500-g-product-images-o590003662-p590003662-0-202408132028.jpg?im=Resize=(1000,1000)',
     category: 'Vegetables',
     stock: 30,
     rating: 4.7,
