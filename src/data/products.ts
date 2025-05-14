@@ -234,7 +234,7 @@ export const products: Product[] = [
     name: 'Okra',
     description: 'Fresh and tender okra, ideal for stir-fries and curries.',
     price: 30, // Price in rupees
-    image: 'https://images.pexels.com/photos/594581/pexels-photo-594581.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://5.imimg.com/data5/SELLER/Default/2022/6/SS/EY/PL/31131351/fresh-okra-lady-finger.jpg',
     category: 'Vegetables',
     stock: 40,
     rating: 4.4,
