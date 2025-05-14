@@ -58,7 +58,7 @@ export const products: Product[] = [
     name: 'Mangoes',
     description: 'Sweet and juicy mangoes, the king of fruits.',
     price: 120, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/1238005/pexels-photo-1238005.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '',
     category: 'Fruits',
     stock: 40,
     rating: 4.8,
