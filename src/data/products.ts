@@ -234,7 +234,7 @@ export const products: Product[] = [
     name: 'Garlic',
     description: 'Aromatic fresh garlic, essential for all cuisines.',
     price: 200, // Price per kg in rupees
-    image: 'https://images.pexels.com/photos/844500/pexels-photo-844500.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.farmatma.in/wp-content/uploads/2017/12/garlic-cultivation.jpg',
     category: 'Vegetables',
     stock: 100,
     rating: 4.9,
