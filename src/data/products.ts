@@ -152,6 +152,104 @@ export const products: Product[] = [
     rating: 4.8,
     isPopular: true
   }
+  {
+    id: 13,
+    name: 'Green Bell Peppers',
+    description: 'Crunchy and fresh green bell peppers, perfect for stir-fries and salads.',
+    price: 60, // Price in rupees
+    image: 'https://images.pexels.com/photos/594579/pexels-photo-594579.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 30,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
+    id: 14,
+    name: 'Baby Carrots',
+    description: 'Sweet and tender baby carrots, ideal for snacks and side dishes.',
+    price: 50, // Price in rupees
+    image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 40,
+    rating: 4.3,
+    isPopular: false
+  },
+  {
+    id: 15,
+    name: 'Cauliflower',
+    description: 'Fresh white cauliflower, perfect for curries and roasting.',
+    price: 45, // Price in rupees
+    image: 'https://images.pexels.com/photos/6195754/pexels-photo-6195754.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 25,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
+    id: 16,
+    name: 'Spinach',
+    description: 'Nutritious and fresh spinach leaves, great for soups and smoothies.',
+    price: 30, // Price in rupees
+    image: 'https://images.pexels.com/photos/551401/pexels-photo-551401.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 60,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 17,
+    name: 'Broccoli',
+    description: 'Rich in nutrients, fresh green broccoli, perfect for steaming and salads.',
+    price: 70, // Price in rupees
+    image: 'https://images.pexels.com/photos/562119/pexels-photo-562119.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 20,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 18,
+    name: 'Eggplant',
+    description: 'Fresh and glossy eggplants, ideal for grilling and curries.',
+    price: 35, // Price in rupees
+    image: 'https://images.pexels.com/photos/593324/pexels-photo-593324.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 40,
+    rating: 4.4,
+    isPopular: false
+  },
+  {
+    id: 19,
+    name: 'Red Onions',
+    description: 'Crisp and flavorful red onions, perfect for salads and cooking.',
+    price: 25, // Price in rupees
+    image: 'https://images.pexels.com/photos/5794555/pexels-photo-5794555.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 70,
+    rating: 4.5,
+    isPopular: true
+  },
+  {
+    id: 20,
+    name: 'Garlic',
+    description: 'Aromatic fresh garlic, essential for all cuisines.',
+    price: 200, // Price per kg in rupees
+    image: 'https://images.pexels.com/photos/844500/pexels-photo-844500.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 100,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 21,
+    name: 'Zucchini',
+    description: 'Tender and fresh zucchini, perfect for grilling and baking.',
+    price: 90, // Price in rupees
+    image: 'https://images.pexels.com/photos/594580/pexels-photo-594580.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 15,
+    rating: 4.2,
+    isPopular: false
 ];
 
 export const getProductById = (id: number): Product | undefined => {
