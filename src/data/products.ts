@@ -250,28 +250,6 @@ export const products: Product[] = [
     stock: 15,
     rating: 4.2,
     isPopular: false
-  },
-  {
-    id: 22,
-    name: 'Cauliflower',
-    description: 'Fresh white cauliflower, perfect for curries and roasting.',
-    price: 45, // Price in rupees
-    image: 'https://feashts.com/wp-content/uploads/2025/01/Snapshot_4.jpg',
-    category: 'Vegetables',
-    stock: 25,
-    rating: 4.6,
-    isPopular: true
-  },
-  {
-    id: 23,
-    name: 'Cauliflower',
-    description: 'Fresh white cauliflower, perfect for curries and roasting.',
-    price: 45, // Price in rupees
-    image: 'https://feashts.com/wp-content/uploads/2025/01/Snapshot_4.jpg',
-    category: 'Vegetables',
-    stock: 25,
-    rating: 4.6,
-    isPopular: true
   }
 ];
 
