@@ -230,6 +230,17 @@ export const products: Product[] = [
     isPopular: false
   },
   {
+    id: 33,
+    name: 'Okra',
+    description: 'Fresh and tender okra, ideal for stir-fries and curries.',
+    price: 30, // Price in rupees
+    image: 'https://images.pexels.com/photos/594581/pexels-photo-594581.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 40,
+    rating: 4.4,
+    isPopular: true
+  },
+  {
     id: 14,
     name: 'Baby Carrots',
     description: 'Sweet and tender baby carrots, ideal for snacks and side dishes.',
