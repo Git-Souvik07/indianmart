@@ -308,6 +308,17 @@ export const products: Product[] = [
     isPopular: false
   },
   {
+    id: 29,
+    name: 'Peas',
+    description: 'Fresh green peas, great for curries and side dishes.',
+    price: 35, // Price in rupees
+    image: 'https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 40,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
     id: 19,
     name: 'Ginger',
     description: 'Ginger seeds/Ginger plant seedsGinger may have potential uses for various conditions however, more human studies are needed to support its true extent in humans.This can be grown on variety of soils, including the well-drained lateritic soils of Goa. But the sandy loam is the best soil type for its cultivation. Season: Ginger can be grown both under rainfed and irrigated conditions.Fill the container with the prepared soil and plant the seeds. (Price in kilogram)',
