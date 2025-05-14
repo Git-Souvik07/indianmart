@@ -301,7 +301,7 @@ export const products: Product[] = [
     name: 'Eggplant (Brinjal)',
     description: 'Fresh and glossy eggplants, ideal for grilling and curries.',
     price: 35, // Price in rupees
-    image: 'https://www.beaumont.org/images/default-source/news/eggplant-fotm.jpg?sfvrsn=3f0c7bef_2',
+    image: 'https://media.npr.org/assets/img/2016/06/13/celery_custom-8f0a770aa8a6091316802b63fb7a0f8e9edcc6ec.jpg',
     category: 'Vegetables',
     stock: 40 ,
     rating: 4.4,
