@@ -201,7 +201,7 @@ export const products: Product[] = [
     name: 'Broccoli',
     description: 'Rich in nutrients, fresh green broccoli, perfect for steaming and salads.',
     price: 70, // Price in rupees
-    image: 'https://images.pexels.com/photos/562119/pexels-photo-562119.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://c.ndtvimg.com/2018-09/5dtqabb8_broccoli_625x300_14_September_18.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=886',
     category: 'Vegetables',
     stock: 20,
     rating: 4.9,
