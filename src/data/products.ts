@@ -135,7 +135,7 @@ export const products: Product[] = [
     name: 'Kiwi',
     description: 'Tangy and nutrient-packed kiwi, great for immunity.',
     price: 30, // Price in rupees per piece
-    image: 'https://images.pexels.com/photos/1343510/pexels-photo-1343510.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Kiwi_%28Actinidia_chinensis%29_1_Luc_Viatour.jpg/1200px-Kiwi_%28Actinidia_chinensis%29_1_Luc_Viatour.jpg',
     category: 'Fruits',
     stock: 30,
     rating: 4.8,
