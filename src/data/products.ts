@@ -240,17 +240,7 @@ export const products: Product[] = [
     rating: 4.4,
     isPopular: true
   },
-  {
-    id: 32,
-    name: 'Bottle Gourd',
-    description: 'Fresh and light bottle gourd, ideal for soups and curries.',
-    price: 35, // Price in rupees
-    image: 'https://images.pexels.com/photos/4157696/pexels-photo-4157696.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Vegetables',
-    stock: 30,
-    rating: 4.5,
-    isPopular: true
-  }
+  
   {
     id: 14,
     name: 'Baby Carrots',
