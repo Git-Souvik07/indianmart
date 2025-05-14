@@ -97,17 +97,7 @@ export const products: Product[] = [
     rating: 4.5,
     isPopular: true
   },
-  {
-    id: 8,
-    name: 'Bananas',
-    description: 'Nutritious and energy-boosting bananas.',
-    price: 60, // Price in rupees per dozen
-    image: 'https://images.pexels.com/photos/1093038/pexels-photo-1093038.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Fruits',
-    stock: 70,
-    rating: 4.1,
-    isPopular: false
-  },
+  
   {
     id: 9,
     name: 'Turmeric Powder',
