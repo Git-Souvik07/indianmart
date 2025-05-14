@@ -201,7 +201,7 @@ export const products: Product[] = [
     name: 'Plums',
     description: 'Tangy and sweet plums, great for snacking and preserves.',
     price: 120, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/41957/plums-fruits-garden-healthy-41957.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://m.media-amazon.com/images/I/91FS9nT6g2L._AC_UF1000,1000_QL80_.jpg',
     category: 'Fruits',
     stock: 40,
     rating: 4.6,
