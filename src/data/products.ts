@@ -179,7 +179,7 @@ export const products: Product[] = [
     name: 'Blackberries',
     description: 'Rich and juicy blackberries, perfect for smoothies and desserts.',
     price: 250, // Price in rupees per box
-    image: 'https://images.pexels.com/photos/594610/pexels-photo-594610.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://cdn-prod.medicalnewstoday.com/content/images/articles/322/322052/blackberries-in-a-bowl.jpg',
     category: 'Fruits',
     stock: 20,
     rating: 4.8,
