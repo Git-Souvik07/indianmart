@@ -102,7 +102,7 @@ export const products: Product[] = [
     name: 'Pomegranates',
     description: 'Rich and antioxidant-packed pomegranates.',
     price: 200, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/937661/pexels-photo-937661.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://hips.hearstapps.com/hmg-prod/images/close-up-of-pomegranates-on-table-royalty-free-image-1701801291.jpg?crop=0.655xw:0.985xh;0.148xw,0&resize=640:*',
     category: 'Fruits',
     stock: 35,
     rating: 4.7,
@@ -113,7 +113,7 @@ export const products: Product[] = [
     name: 'Papayas',
     description: 'Nutritious and sweet papayas, great for digestion.',
     price: 60, // Price in rupees per piece
-    image: 'https://images.pexels.com/photos/1187959/pexels-photo-1187959.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://m.media-amazon.com/images/I/616aZ4SMIHL._AC_UF1000,1000_QL80_.jpg',
     category: 'Fruits',
     stock: 40,
     rating: 4.4,
@@ -124,7 +124,7 @@ export const products: Product[] = [
     name: 'Watermelons',
     description: 'Refreshing and hydrating watermelons, perfect for summer.',
     price: 40, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/2255923/pexels-photo-2255923.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://cdn.mos.cms.futurecdn.net/SxQpyZbdPoWZuXmxKiJ3uF.jpg',
     category: 'Fruits',
     stock: 70,
     rating: 4.6,
