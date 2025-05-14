@@ -31,17 +31,7 @@ export const products: Product[] = [
     rating: 4.5,
     isPopular: true
   },
-  {
-    id: 2,
-    name: 'Alphonso Mangoes',
-    description: 'Premium quality Alphonso mangoes from Ratnagiri, Maharashtra.',
-    price: 450, // Price in rupees
-    image: 'https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Fruits',
-    stock: 30,
-    rating: 5.0,
-    isPopular: true
-  },
+  
   {
     id: 3,
     name: 'Basmati Rice',
