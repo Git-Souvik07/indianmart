@@ -30,7 +30,7 @@ export const products: Product[] = [
     stock: 50,
     rating: 4.5,
     isPopular: true
-  
+  },
   {
     id: 2,
     name: 'Alphonso Mangoes',
