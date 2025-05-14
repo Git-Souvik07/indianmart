@@ -91,7 +91,7 @@ export const products: Product[] = [
     name: 'Grapes',
     description: 'Fresh and juicy grapes, perfect for snacking and juicing.',
     price: 90, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/216651/pexels-photo-216651.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.foodrepublic.com/img/gallery/15-types-of-grapes-to-know-eat-and-drink/intro-1743188162.jpg',
     category: 'Fruits',
     stock: 50,
     rating: 4.5,
