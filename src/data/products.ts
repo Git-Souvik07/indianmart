@@ -324,7 +324,7 @@ export const products: Product[] = [
     name: 'Sweet Corn',
     description: 'Juicy and sweet corn, perfect for roasting and soups.',
     price: 40, // Price in rupees
-    image: 'https://images.pexels.com/photos/678414/pexels-photo-678414.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQHjMyMpw4cHKUYBAmF5oKlnT0gk90Os9Zi8qTmmIIbmbs7okyQblfvbkrMxgz6D-mGr098kXhtz0nfMncYHl2Fc1tdbKai1I0LtSUldco',
     category: 'Vegetables',
     stock: 60,
     rating: 4.9,
