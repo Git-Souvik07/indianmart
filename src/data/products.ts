@@ -234,7 +234,7 @@ export const products: Product[] = [
     name: 'Cantaloupe',
     description: 'Juicy and refreshing cantaloupe, perfect for summer snacks.',
     price: 50, // Price in rupees per kg
-    image: '',
+    image: 'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2023/cantaloupe-cut.jpg.rend.hgtvcom.476.317.85.suffix/1715547262006.webp',
     category: 'Fruits',
     stock: 60,
     rating: 4.4,
