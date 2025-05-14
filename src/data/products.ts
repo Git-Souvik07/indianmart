@@ -80,7 +80,7 @@ export const products: Product[] = [
     name: 'Pineapples',
     description: 'Tropical and juicy pineapples, great for snacks and smoothies.',
     price: 100, // Price in rupees per piece
-    image: 'https://images.pexels.com/photos/615674/pexels-photo-615674.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i0.wp.com/nextcashandcarry.com.ng/wp-content/uploads/2022/06/image.webp?fit=1080%2C607&ssl=1',
     category: 'Fruits',
     stock: 25,
     rating: 4.6,
