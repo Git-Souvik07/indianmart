@@ -179,7 +179,7 @@ export const products: Product[] = [
     name: 'Cauliflower',
     description: 'Fresh white cauliflower, perfect for curries and roasting.',
     price: 45, // Price in rupees
-    image: 'https://images.pexels.com/photos/6195754/pexels-photo-6195754.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://feashts.com/wp-content/uploads/2025/01/Snapshot_4.jpg',
     category: 'Vegetables',
     stock: 25,
     rating: 4.6,
