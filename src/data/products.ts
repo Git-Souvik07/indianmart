@@ -390,7 +390,7 @@ export const products: Product[] = [
     name: 'Beetroot',
     description: 'Rich and earthy beetroots, perfect for soups and salads.',
     price: 40, // Price in rupees
-    image: 'https://images.pexels.com/photos/594566/pexels-photo-594566.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://hips.hearstapps.com/hmg-prod/images/beetroof-health-benefits-1637616232.jpg?crop=0.668xw:1.00xh;0.224xw,0&resize=640:*',
     category: 'Vegetables',
     stock: 25,
     rating: 4.6,
