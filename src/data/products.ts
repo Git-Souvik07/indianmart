@@ -330,7 +330,17 @@ export const products: Product[] = [
     rating: 4.9,
     isPopular: true
   },
-
+  {
+    id: 27,
+    name: 'Cabbage',
+    description: 'Fresh green cabbage, great for salads and cooking.',
+    price: 30, // Price in rupees
+    image: 'https://images.pexels.com/photos/3721667/pexels-photo-3721667.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 35,
+    rating: 4.5,
+    isPopular: true
+  },
   {
     id: 19,
     name: 'Ginger',
