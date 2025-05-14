@@ -401,7 +401,7 @@ export const products: Product[] = [
     name: 'Cucumber',
     description: 'Cool and crunchy cucumbers, great for salads and hydration.',
     price: 25, // Price in rupees
-    image: 'https://images.pexels.com/photos/419812/pexels-photo-419812.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://m.media-amazon.com/images/I/71xkI-PIE5L.jpg',
     category: 'Vegetables',
     stock: 50,
     rating: 4.4,
