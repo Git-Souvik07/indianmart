@@ -190,7 +190,7 @@ export const products: Product[] = [
     name: 'Mushrooms',
     description: 'Fresh and earthy mushrooms, perfect for stir-fries and soups.',
     price: 120, // Price in rupees
-    image: 'https://images.pexels.com/photos/594633/pexels-photo-594633.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2020/03/brown-mushroom-53494-scaled.jpg',
     category: 'Vegetables',
     stock: 20,
     rating: 4.8,
