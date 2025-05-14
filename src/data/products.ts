@@ -319,6 +319,17 @@ export const products: Product[] = [
     isPopular: false
   },
   {
+    id: 54,
+    name: 'Bitter Gourd',
+    description: 'Fresh and nutritious bitter gourd, perfect for health-conscious recipes.',
+    price: 45, // Price in rupees
+    image: 'https://images.pexels.com/photos/7237065/pexels-photo-7237065.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 35,
+    rating: 4.3,
+    isPopular: false
+  },
+  {
     id: 29,
     name: 'Peas',
     description: 'Fresh green peas, great for curries and side dishes.',
