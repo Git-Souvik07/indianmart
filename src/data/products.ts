@@ -397,6 +397,17 @@ export const products: Product[] = [
     isPopular: false
   },
   {
+    id: 22,
+    name: 'Cucumber',
+    description: 'Cool and crunchy cucumbers, great for salads and hydration.',
+    price: 25, // Price in rupees
+    image: 'https://images.pexels.com/photos/419812/pexels-photo-419812.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 50,
+    rating: 4.4,
+    isPopular: true
+  },
+  {
     id: 21,
     name: 'Zucchini',
     description: 'Tender and fresh zucchini, perfect for grilling and baking.',
