@@ -151,7 +151,7 @@ export const products: Product[] = [
     stock: 40,
     rating: 4.8,
     isPopular: true
-  }
+  },
   {
     id: 13,
     name: 'Green Bell Peppers',
