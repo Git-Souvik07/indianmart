@@ -179,7 +179,7 @@ export const products: Product[] = [
     name: 'Capsicum (Red)',
     description: 'Bright red capsicums, great for salads and pasta.',
     price: 70, // Price in rupees
-    image: 'https://images.pexels.com/photos/594583/pexels-photo-594583.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPu7Cgt16UbPNrZjI3D5chHVR0P9CS6WBDuQ&s',
     category: 'Vegetables',
     stock: 30,
     rating: 4.6,
