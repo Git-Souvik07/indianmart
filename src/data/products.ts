@@ -69,7 +69,7 @@ export const products: Product[] = [
     name: 'Strawberries',
     description: 'Fresh and sweet strawberries, perfect for desserts.',
     price: 250, // Price in rupees per box
-    image: 'https://images.pexels.com/photos/158251/strawberries-frisch-ripe-sweet-158251.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://thumbs.dreamstime.com/b/trawberries-fresh-juicy-tasty-natural-strawberries-fresh-juicy-tasty-natural-background-greenery-wicker-149454664.jpg',
     category: 'Fruits',
     stock: 30,
     rating: 4.9,
