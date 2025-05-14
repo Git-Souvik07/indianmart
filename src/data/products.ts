@@ -47,7 +47,7 @@ export const products: Product[] = [
     name: 'Oranges',
     description: 'Juicy and tangy oranges, full of Vitamin C.',
     price: 80, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/42059/background-beverage-citrus-close-up-42059.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://drearth.com/wp-content/uploads/Oranges-iStock-1493917402.jpg',
     category: 'Fruits',
     stock: 60,
     rating: 4.5,
