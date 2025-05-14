@@ -58,7 +58,7 @@ export const products: Product[] = [
     name: 'Mangoes',
     description: 'Sweet and juicy mangoes, the king of fruits.',
     price: 120, // Price in rupees per kg
-    image: '',
+    image: 'https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/01/mangoes_what_to_know_1296x728_header-1024x575.jpg',
     category: 'Fruits',
     stock: 40,
     rating: 4.8,
