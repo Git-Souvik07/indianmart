@@ -221,7 +221,7 @@ export const products: Product[] = [
   {
     id: 19,
     name: 'Ginger',
-    description: 'Crisp and flavorful red onions, perfect for salads and cooking.(Price in rupees)',
+    description: 'Crisp and flavorful red onions, perfect for salads and cooking. (Price in rupees)',
     price: 45, // Price in rupees
     image: 'https://previews.123rf.com/images/prasannapatil/prasannapatil2102/prasannapatil210203942/164391362-ginger-in-indian-vegetable-market.jpg',
     category: 'Vegetables',
