@@ -201,7 +201,7 @@ export const products: Product[] = [
     name: 'Chili Peppers',
     description: 'Spicy and fresh chili peppers, great for adding heat to dishes.',
     price: 50, // Price in rupees
-    image: 'https://images.pexels.com/photos/2887549/pexels-photo-2887549.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.pinimg.com/736x/e3/65/73/e36573f6b3bea15df63ad145d407a99a.jpg',
     category: 'Vegetables',
     stock: 25,
     rating: 4.7,
