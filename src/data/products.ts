@@ -36,7 +36,7 @@ export const products: Product[] = [
     name: 'Apples',
     description: 'Fresh and crispy apples, perfect for snacking and desserts.',
     price: 150, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/39803/red-apple-fruit-ripe-39803.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ868djAR5mIlAFnnjF---4paarCg48aQTr-g&s',
     category: 'Fruits',
     stock: 50,
     rating: 4.7,
