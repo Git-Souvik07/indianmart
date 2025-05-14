@@ -385,6 +385,17 @@ export const products: Product[] = [
     rating: 4.7,
     isPopular: true
   },
+   {
+    id: 24,
+    name: 'Beetroot',
+    description: 'Rich and earthy beetroots, perfect for soups and salads.',
+    price: 40, // Price in rupees
+    image: 'https://images.pexels.com/photos/594566/pexels-photo-594566.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 25,
+    rating: 4.6,
+    isPopular: false
+  },
   {
     id: 21,
     name: 'Zucchini',
