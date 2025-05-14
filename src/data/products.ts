@@ -314,7 +314,7 @@ export const products: Product[] = [
     price: 35, // Price in rupees
     image: 'https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=600',
     category: 'Vegetables',
-    stock: 40,
+    stock: 'Not available',
     rating: 4.6,
     isPopular: true
   },
