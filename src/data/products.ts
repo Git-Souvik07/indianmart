@@ -164,6 +164,17 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 39,
+    name: 'Capsicum (Yellow)',
+    description: 'Vibrant yellow capsicums, perfect for salads and grilling.',
+    price: 70, // Price in rupees
+    image: 'https://images.pexels.com/photos/594584/pexels-photo-594584.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Vegetables',
+    stock: 30,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
     id: 14,
     name: 'Baby Carrots',
     description: 'Sweet and tender baby carrots, ideal for snacks and side dishes.',
