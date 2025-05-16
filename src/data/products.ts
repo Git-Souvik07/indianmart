@@ -808,7 +808,7 @@ export const products: Product[] = [
     name: 'Probiotic Yogurt',
     description: 'Healthy and probiotic-rich yogurt for better digestion.',
     price: 60, // Price in rupees per 400g
-    image: 'https://images.pexels.com/photos/159077/pexels-photo-159077.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://frugivore-bucket.s3.amazonaws.com/media/package/img_one/2021-04-01/Epigamia_Probiotic_Yogurt_-_Alphonso_Mango_75_g.jpg',
     category: 'Dairy',
     stock: 40,
     rating: 4.7,
