@@ -698,7 +698,7 @@ export const products: Product[] = [
     name: 'Ice Cream',
     description: 'Delicious and creamy ice cream, available in various flavors.',
     price: 100, // Price in rupees per 500ml
-    image: 'https://images.pexels.com/photos/1278686/pexels-photo-1278686.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2022/08/Ice-cream-sundae-hero-11.jpg'',
     category: 'Dairy',
     stock: 40,
     rating: 4.7,
