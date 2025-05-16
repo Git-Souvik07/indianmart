@@ -687,7 +687,7 @@ export const products: Product[] = [
     name: 'Ghee',
     description: 'Traditional clarified butter, great for cooking and frying.',
     price: 500, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/3184161/pexels-photo-3184161.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.tatanutrikorner.com/cdn/shop/files/Ghee500ML-1-removebg-preview_7bc4ffa3-e708-40ca-bf2d-8c92414940d5.png?v=1734663818',
     category: 'Dairy',
     stock: 25,
     rating: 4.9,
