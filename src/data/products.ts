@@ -709,7 +709,7 @@ export const products: Product[] = [
     name: 'Condensed Milk',
     description: 'Sweetened condensed milk, perfect for desserts and beverages.',
     price: 90, // Price in rupees per 400g
-    image: 'https://images.pexels.com/photos/1114636/pexels-photo-1114636.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/milk/g/y/9/78-sweetened-condensed-milk-78g-tin-condensed-rainbow-original-imagr2c5asrcgthu.jpeg?q=20&crop=false%27',
     category: 'Dairy',
     stock: 35,
     rating: 4.6,
@@ -719,8 +719,8 @@ export const products: Product[] = [
     id: 97,
     name: 'Whey Powder',
     description: 'High-protein whey powder, great for fitness enthusiasts.',
-    price: 2000, // Price in rupees per kg
-    image: 'https://images.pexels.com/photos/4165869/pexels-photo-4165869.jpeg?auto=compress&cs=tinysrgb&w=600',
+    price: 4999, // Price in rupees per kg
+    image: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/protein-supplement/l/c/s/-original-imagquzavjnqthnj.jpeg?q=20&crop=false',
     category: 'Dairy',
     stock: 15,
     rating: 4.8,
