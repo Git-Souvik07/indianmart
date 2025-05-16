@@ -665,7 +665,7 @@ export const products: Product[] = [
     name: 'Yogurt',
     description: 'Creamy and healthy yogurt, great for digestion and immunity.',
     price: 40, // Price in rupees per 500g
-    image: 'https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.bigbasket.com/media/uploads/p/xxl/40327716_1-mother-dairy-plain-greek-yoghurt.jpg',
     category: 'Dairy',
     stock: 80,
     rating: 4.5,
@@ -676,7 +676,7 @@ export const products: Product[] = [
     name: 'Cream',
     description: 'Rich and smooth cream, perfect for cooking and desserts.',
     price: 60, // Price in rupees per 200ml
-    image: 'https://images.pexels.com/photos/5938/food-healthy-milk-drink.jpg?auto=compress&cs=tinysrgb&w=600',
+    image: ',
     category: 'Dairy',
     stock: 30,
     rating: 4.4,
