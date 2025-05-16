@@ -818,7 +818,7 @@ export const products: Product[] = [
     id: 106,
     name: 'Milk Powder',
     description: 'Convenient and long-lasting milk powder for multiple uses.',
-    price: 450, // Price in rupees per kg
+    price: 95, // Price in rupees per kg
     image: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/milk-powder/w/d/f/200-dairy-whitener-pouch-1-amulya-original-imagnwe2trzdsxg4.jpeg?q=90&crop=false',
     category: 'Dairy',
     stock: 20,
