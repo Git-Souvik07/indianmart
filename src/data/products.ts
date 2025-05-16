@@ -775,7 +775,7 @@ export const products: Product[] = [
     name: 'Skimmed Milk',
     description: 'Low-fat skimmed milk, great for health-conscious individuals.',
     price: 40, // Price in rupees per liter
-    image: 'https://images.pexels.com/photos/1339098/pexels-photo-1339098.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: https://www.bigbasket.com/media/uploads/p/xl/40012988_4-amul-slim-n-trim-skimmed-milk.jpg',
     category: 'Dairy',
     stock: 60,
     rating: 4.5,
