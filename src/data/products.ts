@@ -719,7 +719,7 @@ export const products: Product[] = [
     id: 97,
     name: 'Whey Powder',
     description: 'High-protein whey powder, great for fitness enthusiasts.',
-    price: 4999, // Price in rupees per kg
+    price: 2000, // Price in rupees per kg
     image: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/protein-supplement/l/c/s/-original-imagquzavjnqthnj.jpeg?q=20&crop=false',
     category: 'Dairy',
     stock: 15,
@@ -742,7 +742,7 @@ export const products: Product[] = [
     name: 'Cottage Cheese',
     description: 'Soft and creamy cottage cheese, rich in protein and flavor.',
     price: 90, // Price in rupees per 200g
-    image: 'https://images.pexels.com/photos/3769051/pexels-photo-3769051.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://goodculture.com/wp-content/uploads/2023/06/Renders_Simply_LotFatMilk_MultiServe.jpg',
     category: 'Dairy',
     stock: 45,
     rating: 4.7,
@@ -753,7 +753,7 @@ export const products: Product[] = [
     name: 'Sour Cream',
     description: 'Tangy and creamy sour cream, perfect for dips and baking.',
     price: 120, // Price in rupees per 200g
-    image: 'https://images.pexels.com/photos/1218605/pexels-photo-1218605.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.bigbasket.com/media/uploads/p/xxl/30008580_1-amul-sour-cream.jpg',
     category: 'Dairy',
     stock: 20,
     rating: 4.6,
@@ -764,7 +764,7 @@ export const products: Product[] = [
     name: 'Ricotta Cheese',
     description: 'Light and fluffy ricotta cheese, ideal for pasta and desserts.',
     price: 150, // Price in rupees per 250g
-    image: 'https://images.pexels.com/photos/1628041/pexels-photo-1628041.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: '',
     category: 'Dairy',
     stock: 15,
     rating: 4.8,
