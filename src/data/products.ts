@@ -775,7 +775,7 @@ export const products: Product[] = [
     name: 'Skimmed Milk',
     description: 'Low-fat skimmed milk, great for health-conscious individuals.',
     price: 40, // Price in rupees per liter
-    image: https://www.bigbasket.com/media/uploads/p/xl/40012988_4-amul-slim-n-trim-skimmed-milk.jpg',
+    image: 'https://www.bigbasket.com/media/uploads/p/xl/40012988_4-amul-slim-n-trim-skimmed-milk.jpg',
     category: 'Dairy',
     stock: 60,
     rating: 4.5,
@@ -786,7 +786,7 @@ export const products: Product[] = [
     name: 'Mozzarella Cheese',
     description: 'Soft and stretchy mozzarella cheese, perfect for pizzas.',
     price: 200, // Price in rupees per 250g
-    image: 'https://images.pexels.com/photos/1184081/pexels-photo-1184081.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSQcq3RmFXgJrfHxN9fMeAAWMTedwzzMb9jM91jMGHd0Q_2O7UpkIepNUwAMrk8ZZI0OFiGgPOauO05uNUKh7A3rEH4H7jjCIgFd8CrcmAa52AJ4XBNHevPfw',
     category: 'Dairy',
     stock: 35,
     rating: 4.8,
