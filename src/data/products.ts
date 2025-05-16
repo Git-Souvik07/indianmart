@@ -775,7 +775,7 @@ export const products: Product[] = [
     name: 'Skimmed Milk',
     description: 'Low-fat skimmed milk, great for health-conscious individuals.',
     price: 40, // Price in rupees per liter
-    image: 'https://www.bigbasket.com/media/uploads/p/xl/40012988_4-amul-slim-n-trim-skimmed-milk.jpg',
+    image: 'https://images.pexels.com/photos/1339098/pexels-photo-1339098.jpeg?auto=compress&cs=tinysrgb&w=600',
     category: 'Dairy',
     stock: 60,
     rating: 4.5,
@@ -797,7 +797,7 @@ export const products: Product[] = [
     name: 'Goat Milk',
     description: 'Rich and nutritious goat milk, great for overall health.',
     price: 70, // Price in rupees per liter
-    image: 'https://images.pexels.com/photos/1529361/pexels-photo-1529361.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://images.squarespace-cdn.com/content/v1/63b4aea059cc603938fb252a/1737400984939-3AXS8FVDSDUMJKXXY9U1/ErinScott_meyenberg_August2019-4693.jpg',
     category: 'Dairy',
     stock: 25,
     rating: 4.6,
