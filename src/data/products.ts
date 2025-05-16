@@ -731,7 +731,7 @@ export const products: Product[] = [
     name: 'Buttermilk',
     description: 'Cool and refreshing buttermilk, ideal for hot days.',
     price: 20, // Price in rupees per 500ml
-    image: 'https://images.pexels.com/photos/3650774/pexels-photo-3650774.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://kalonasupernatural.com/wp-content/uploads/Organic-Buttermilk-Low-Temp-Pasteurized-.jpg',
     category: 'Dairy',
     stock: 70,
     rating: 4.5,
