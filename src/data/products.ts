@@ -676,7 +676,7 @@ export const products: Product[] = [
     name: 'Cream',
     description: 'Rich and smooth cream, perfect for cooking and desserts.',
     price: 60, // Price in rupees per 200ml
-    image: ',
+    image: 'https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/740347d8-80b9-40eb-8de4-72b283acb7bc.jpg?ts=1706182141%27',
     category: 'Dairy',
     stock: 30,
     rating: 4.4,
