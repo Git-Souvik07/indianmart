@@ -764,7 +764,7 @@ export const products: Product[] = [
     name: 'Ricotta Cheese',
     description: 'Light and fluffy ricotta cheese, ideal for pasta and desserts.',
     price: 150, // Price in rupees per 250g
-    image: '',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR4I9E7taUBpOvHwBUWNjEV8JyPluMc9lJo3ZWp6cPlR4Kee9hXorhNW27bgo2vYTfykV_SbmiU7OO-DiP7rsXQl-4RKOSCnw1zdCAXGWfWm--cpEvpK8EUUQ',
     category: 'Dairy',
     stock: 15,
     rating: 4.8,
@@ -775,7 +775,7 @@ export const products: Product[] = [
     name: 'Skimmed Milk',
     description: 'Low-fat skimmed milk, great for health-conscious individuals.',
     price: 40, // Price in rupees per liter
-    image: 'https://images.pexels.com/photos/1339098/pexels-photo-1339098.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://www.bigbasket.com/media/uploads/p/xl/40012988_4-amul-slim-n-trim-skimmed-milk.jpg',
     category: 'Dairy',
     stock: 60,
     rating: 4.5,
