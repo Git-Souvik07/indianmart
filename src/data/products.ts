@@ -197,6 +197,50 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 123,
+    name: 'Saffron',
+    description: 'Premium-grade saffron for a rich and exotic flavor.',
+    price: 500, // Price in rupees per gram
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSkxFcthFnkrjigWjVdxxOnOb2HzjDiTHOiIKxmmLqMldZjaJ_Ex-AT7H_QHWtVb0wXMn9RdH9xZvETDC6R08XbfgQO1q1i1yiKZLKiAgZPU6kR8NYyaLxgmw',
+    category: 'Spices',
+    stock: 15,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 124,
+    name: 'Hing',
+    description: 'Give your meals a strong flavour with just a pinch of goodness',
+    price: 80, // Price in rupees per 50g
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYlztYbWg161t1VdzCCpiHFPlE6Hb1P-NxW6bgYzSG_CD7zVawlh1KZt9amBB4xFnrPYkeD0K_CGaFXiEU-_tqR5NjEcvrp6p9R8Zw-zqXs9gnJv73A1NKfBk',
+    category: 'Spices',
+    stock: 55,
+    rating: 4.5,
+    isPopular: false
+  },
+  {
+    id: 125,
+    name: 'Cumin Powder',
+    description: 'Ground cumin powder for an earthy and warm flavor.',
+    price: 70, // Price in rupees per 100g
+    image: 'https://m.media-amazon.com/images/I/81Y4dOt-V1L.jpg',
+    category: 'Spices',
+    stock: 85,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
+    id: 126,
+    name: 'Fennel Seeds',
+    description: 'Sweet and aromatic fennel seeds for cooking and digestion.',
+    price: 45, // Price in rupees per 100g
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSC0RbngtVeGPKGLmhWlaItFp6ULVxaySjdrHR6So_0kpcxGtoPnciuRWtzcu3weW_0vGh2ZUMfR2cZp3_U6d1quqXgBzMA_hhOsedxT9PwQdaEMgHDYQAN',
+    category: 'Spices',
+    stock: 70,
+    rating: 4.3,
+    isPopular: false
+  },
+  {
     id: 69,
     name: 'Apples',
     description: 'Fresh and crispy apples, perfect for snacking and desserts.',
