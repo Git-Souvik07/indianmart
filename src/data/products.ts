@@ -98,6 +98,50 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 114,
+    name: 'Red Chili Powder',
+    description: 'Fiery red chili powder to spice up your dishes.',
+    price: 65, // Price in rupees per 100g
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQME0Drd-y7o4ZXcm67SfaQrl1oONntLPo1TEVEvEZJQzJZ0iclpdU5Vk8brsQTrW5bvJJmmnhIiKVSu0UisV26JDr083hX4sOKt3LLtgRuMXrcvrXytxNmVA',
+    category: 'Spices',
+    stock: 90,
+    rating: 4.4,
+    isPopular: true
+  },
+  {
+    id: 115,
+    name: 'Cloves',
+    description: 'High-quality cloves with a strong and aromatic flavor.',
+    price: 150, // Price in rupees per 100g
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS-3IaRSoBTPEjsDMwTuszuum9qlYz9ZlMvwE8UEY_oBneeW4vzkmDu4-QFM1qNbBiyDmvfwJxS6OdMOkYGT3oNAunLq13gRjvGZh5v563VIMCV-kHA13Ay',
+    category: 'Spices',
+    stock: 50,
+    rating: 4.7,
+    isPopular: false
+  },
+  {
+    id: 116,
+    name: 'Nutmeg',
+    description: 'Whole nutmeg for a warm and spicy flavor.',
+    price: 175, // Price in rupees per 100g
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSPj3onOsrql_K5GSEOyoRhj3KNGLvbZ-uxtP8vU3V5uk7CbAECkKRUIXUQ2RU7y53skr5S2mOfOtFbJZUHWB9zIzwirQi-YnyurykQ5dhXXFejFht5gJOzVw',
+    category: 'Spices',
+    stock: 25,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 117,
+    name: 'Mustard Seeds',
+    description: 'Organic mustard seeds for a pungent and earthy taste.',
+    price: 40, // Price in rupees per 100g
+    image: 'https://m.media-amazon.com/images/I/712tuBuCmyL.jpg',
+    category: 'Spices',
+    stock: 150,
+    rating: 4.2,
+    isPopular: false
+  },
+  {
     id: 69,
     name: 'Apples',
     description: 'Fresh and crispy apples, perfect for snacking and desserts.',
