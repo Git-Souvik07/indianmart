@@ -616,9 +616,9 @@ export const products: Product[] = [
   {
     id: 89,
     name: 'Milk',
-    description: 'Fresh and pure cow's milk, essential for a healthy diet.',
+    description: 'Fresh and pure cows milk essential for a healthy diet.',
     price: 50, // Price in rupees per liter
-    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSc2ZWKFC1rsFIF4jHkASrQMqL13bS0vqEkVV2cP3YfN5saKQcwpP-WP7QrQfmIWQ6cnRh2IU4QsY2vYEqcmlKu1MOemOlSsrezS_tcFxCBNhjXWqmmnymV',
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSc2ZWKFC1rsFIF4jHkASrQMqL13bS0vqEkVV2cP3YfN5saKQcwpP-     WP7QrQfmIWQ6cnRh2IU4QsY2vYEqcmlKu1MOemOlSsrezS_tcFxCBNhjXWqmmnymV',
     category: 'Dairy',
     stock: 100,
     rating: 4.8,
