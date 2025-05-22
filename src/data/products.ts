@@ -64,6 +64,39 @@ export const products: Product[] = [
     rating: 4.7,
     isPopular: true
   },
+   {
+    id: 111,
+    name: 'Black Pepper',
+    description: 'Whole black peppercorns for bold and sharp flavor.',
+    price: 100, // Price in rupees per 100g
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ1arwXWA4jYpo-2umzBXvyGeQ1e0CO1t3cvHLa6ofV5ePGVdR_YLuzG3ZukQ0I6IkZ9-zAgcfbqZj4e06MwilRU_uHAYgTz1C5Eu77DHZwq0o7PDMOeCA-',
+    category: 'Spices',
+    stock: 80,
+    rating: 4.6,
+    isPopular: false
+  },
+  {
+    id: 112,
+    name: 'Coriander Powder',
+    description: 'Finely ground coriander powder for authentic taste.',
+    price: 45, // Price in rupees per 100g
+    image: 'https://m.media-amazon.com/images/I/71p4aYHucEL.jpg',
+    category: 'Spices',
+    stock: 100,
+    rating: 4.3,
+    isPopular: true
+  },
+  {
+    id: 113,
+    name: 'Cardamom Pods',
+    description: 'Aromatic green cardamom pods for a unique and rich flavor.',
+    price: 200, // Price in rupees per 100g
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQxIubH1hpqNCLxZLOPRXR-pcQg-YD5rL-b0nSXIo1Z1WaqBimHmC1MmxXYePnCKr-OczvugPUedkGj5M70DYJlfjg5GzhmmFvYNJyBhtbLLVkkpcsjqpijMg',
+    category: 'Spices',
+    stock: 30,
+    rating: 4.9,
+    isPopular: true
+  },
   {
     id: 69,
     name: 'Apples',
