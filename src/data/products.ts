@@ -54,6 +54,17 @@ export const products: Product[] = [
     isPopular: false
   },
   {
+    id: 110,
+    name: 'Cinnamon Sticks',
+    description: 'Premium-quality cinnamon sticks for a rich aroma and taste.',
+    price: 120, // Price in rupees per 100g
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ-tGPPOhnvBygRKYo_V1lQKFIhh3HFwqPLzekxB3fIqgHJJKDUJCe3R_1EwSVGvYM7xwYbtQBl_J0I7P_xaQIVUhHQFRXKV9OulAXxtL3rWK_WIPphkMjC',
+    category: 'Spices',
+    stock: 45,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
     id: 69,
     name: 'Apples',
     description: 'Fresh and crispy apples, perfect for snacking and desserts.',
