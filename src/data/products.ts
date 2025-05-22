@@ -14,9 +14,8 @@ export const categories = [
   { id: 1, name: 'Vegetables', image: 'https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=600' },
   { id: 2, name: 'Fruits', image: 'https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&w=600' },
   { id: 3, name: 'Dairy', image: 'https://images.pexels.com/photos/248412/pexels-photo-248412.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: 4, name: 'Spices', image: 'https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600' },
-  { id: 5, name: 'Grains', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNfX9blilfc29-nLu3YJ0JU4p5sVR4jvJ8gw&s' },
-  { id: 6, name: 'Snacks', image: 'https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=600' },
+  { id: 4, name: 'Grains', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNfX9blilfc29-nLu3YJ0JU4p5sVR4jvJ8gw&s' },
+  { id: 5, name: 'Snacks', image: 'https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&w=600' },
 ];
 
 export const products: Product[] = [
@@ -274,105 +273,6 @@ export const products: Product[] = [
     isPopular: true
   },
   {
-    id: 5,
-    name: 'Garam Masala',
-    description: 'Authentic blend of ground spices used in Indian cuisine.',
-    price: 75, // Price in rupees per 100g
-    image: 'https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-    stock: 60,
-    rating: 4.8,
-    isPopular: true
-  },
-  {
-    id: 6,
-    name: 'Kashmiri Red Chili Powder',
-    description: 'Vibrant red chili powder with medium heat, perfect for authentic color in curries.',
-    price: 95,
-    image: 'https://m.media-amazon.com/images/I/810TfyMSEFL._AC_UF894,1000_QL80_.jpg',
-    category: 'Spices',
-    stock: 45,
-    rating: 4.7,
-    isPopular: true
-  },
-   {
-    id: 7,
-    name: 'Whole Black Cardamom',
-    description: 'Smoky, earthy pods for rich meat curries and biryanis.',
-    price: 220,
-    image: 'https://images.pexels.com/photos/7658804/pexels-photo-7658804.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-    stock: 35,
-    rating: 4.6,
-    isPopular: false
-  },
-  {
-    id: 8,
-    name: 'Turmeric Powder',
-    description: 'Organic golden-hued turmeric with anti-inflammatory properties.',
-    price: 50,
-    image: 'https://images.pexels.com/photos/5946720/pexels-photo-5946720.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-    stock: 150,
-    rating: 4.9,
-    isPopular: true
-  },
-  {
-    id: 9,
-    name: 'Cumin Seeds',
-    description: 'Aromatic jeera for tempering and spice blends.',
-    price: 65,
-    image: 'https://images.pexels.com/photos/4202930/pexels-photo-4202930.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-    stock: 90,
-    rating: 4.8,
-    isPopular: true
-  },
-  {
-    id: 10,
-    name: 'Coriander Powder',
-    description: 'Freshly ground dhania for balanced flavor in gravies.',
-    price: 60,
-    image: 'https://images.pexels.com/photos/8473938/pexels-photo-8473938.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-    stock: 75,
-    rating: 4.7,
-    isPopular: false
-  },
-  {
-    id: 11,
-    name: 'Saffron Strands',
-    description: 'Premium Kashmiri keshar for luxurious biryanis and desserts.',
-    price: 3500,
-    image: 'https://images.pexels.com/photos/6726303/pexels-photo-6726303.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-    stock: 15,
-    rating: 4.9,
-    isPopular: true
-  },
-  {
-    id: 12,
-    name: 'Black Mustard Seeds',
-    description: 'Traditional rai for South Indian tempering and pickles.',
-    price: 55,
-    image: 'https://images.pexels.com/photos/7661104/pexels-photo-7661104.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-    stock: 60,
-    rating: 4.5,
-    isPopular: false
-  },
-  {
-    id: 13,
-    name: 'Fenugreek Seeds',
-    description: 'Methi seeds for authentic sambar and medicinal uses.',
-    price: 70,
-    image: 'https://images.pexels.com/photos/7661111/pexels-photo-7661111.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-    stock: 40,
-    rating: 4.6,
-    isPopular: true
-  },
-  {
     id: 6,
     name: 'Potatoes',
     description: 'Fresh potatoes, perfect for curries, fries, and more.',
@@ -394,7 +294,6 @@ export const products: Product[] = [
     rating: 4.5,
     isPopular: true
   },
-  
   {
     id: 10,
     name: 'Onions',
@@ -472,7 +371,7 @@ export const products: Product[] = [
     rating: 4.8,
     isPopular: true
   },
-{
+  {
     id: 36,
     name: 'Chili Peppers',
     description: 'Spicy and fresh chili peppers, great for adding heat to dishes.',
@@ -516,7 +415,6 @@ export const products: Product[] = [
     rating: 4.4,
     isPopular: true
   },
-  
   {
     id: 14,
     name: 'Baby Carrots',
@@ -579,7 +477,7 @@ export const products: Product[] = [
     price: 35, // Price in rupees
     image: 'https://www.beaumont.org/images/default-source/news/eggplant-fotm.jpg?sfvrsn=3f0c7bef_2',
     category: 'Vegetables',
-    stock: 40 ,
+    stock: 40,
     rating: 4.4,
     isPopular: false
   },
@@ -682,7 +580,7 @@ export const products: Product[] = [
     rating: 4.5,
     isPopular: true
   },
-   {
+  {
     id: 26,
     name: 'Green Beans',
     description: 'Crisp and tender green beans, ideal for stir-fries and steaming.',
@@ -693,7 +591,7 @@ export const products: Product[] = [
     rating: 4.7,
     isPopular: true
   },
-   {
+  {
     id: 24,
     name: 'Beetroot',
     description: 'Rich and earthy beetroots, perfect for soups and salads.',
@@ -718,7 +616,7 @@ export const products: Product[] = [
   {
     id: 89,
     name: 'Milk',
-    description: 'Fresh and pure cow’s milk, essential for a healthy diet.',
+    description: 'Fresh and pure cow's milk, essential for a healthy diet.',
     price: 50, // Price in rupees per liter
     image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSc2ZWKFC1rsFIF4jHkASrQMqL13bS0vqEkVV2cP3YfN5saKQcwpP-WP7QrQfmIWQ6cnRh2IU4QsY2vYEqcmlKu1MOemOlSsrezS_tcFxCBNhjXWqmmnymV',
     category: 'Dairy',
@@ -936,7 +834,6 @@ export const products: Product[] = [
     isPopular: false
   }
 ];
-
 
 export const getProductById = (id: number): Product | undefined => {
   return products.find(product => product.id === id);
