@@ -830,7 +830,7 @@ export const products: Product[] = [
     name: 'Cream Cheese',
     description: 'Smooth and creamy cheese, perfect for bagels and desserts.',
     price: 250, // Price in rupees per 200g
-    image: 'https://images.pexels.com/photos/691500/pexels-photo-691500.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://images-cdn.ubuy.co.in/6682dc52977dca09f90f61e4-philadelphia-original-cream-cheese.jpg',
     category: 'Dairy',
     stock: 30,
     rating: 4.8,
