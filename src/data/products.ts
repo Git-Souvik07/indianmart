@@ -142,6 +142,61 @@ export const products: Product[] = [
     isPopular: false
   },
   {
+    id: 118,
+    name: 'Fenugreek Seeds',
+    description: 'High-quality fenugreek seeds for a bitter and earthy flavor.',
+    price: 35, // Price in rupees per 100g
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRBqqtTOme-aJK2yUVCbrJWkHK9PW3JE-KJJTABgOk9j04Uxfa26RmFDkDjOWekJyZR0WrY2mNrzuJD0oFhq-1m6jNq2fENesneGswSwf0',
+    category: 'Spices',
+    stock: 75,
+    rating: 4.1,
+    isPopular: false
+  },
+  {
+    id: 119,
+    name: 'Bay Leaves',
+    description: 'Dried bay leaves for enhancing the flavor of your dishes.',
+    price: 50, // Price in rupees per 100g
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRgifDkFXO8u_qvjZZDEdMTnDhF9ZeiyR8NUVTFAKcp9La46HW0OuPOeTAGsx_NXxOuzmitRI9yi94P7_bExY1FINKwYsvs3wl4pNjOf4VAy5JcXh14EKNn',
+    category: 'Spices',
+    stock: 95,
+    rating: 4.3,
+    isPopular: true
+  },
+  {
+    id: 120,
+    name: 'Kasuri Methi',
+    description: 'Dried fenugreek leaves for a unique aroma and flavor.',
+    price: 60, // Price in rupees per 50g
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcROiFNwVSZTgT6Pya-Ap3SJBxVJnwSY343Q3XOmCo30vxeZ2_CCQj5_uxxqqhA0LsXXlzmByL2Z443zUFHqA3r0TjyiY2u4v6b83xnZVsdKaE1D7KpIK9aBufs',
+    category: 'Spices',
+    stock: 40,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
+    id: 121,
+    name: 'Ajwain Seeds',
+    description: 'Aromatic ajwain seeds for digestive benefits and flavor.',
+    price: 55, // Price in rupees per 100g
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSVrFpqYf9qcTTe9ss3JbdXYn6hNrF9kkdwW0IWTmOfoswYjQV4ls2zCF2L5f6mQQm5H0kX9uGV0jXokVDKzJR25kfLkjZJ5g',
+    category: 'Spices',
+    stock: 110,
+    rating: 4.4,
+    isPopular: false
+  },
+  {
+    id: 122,
+    name: 'Dry Ginger Powder',
+    description: 'Fine dry ginger powder for medicinal and culinary use.',
+    price: 90, // Price in rupees per 100g
+    image: 'https://m.media-amazon.com/images/I/81nKpe0VBPL.jpg',
+    category: 'Spices',
+    stock: 60,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
     id: 69,
     name: 'Apples',
     description: 'Fresh and crispy apples, perfect for snacking and desserts.',
