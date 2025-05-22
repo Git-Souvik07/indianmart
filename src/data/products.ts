@@ -36,7 +36,7 @@ export const products: Product[] = [
     name: 'Garam Masala',
     description: 'Authentic blend of ground spices used in Indian cuisine.',
     price: 75, // Price in rupees per 100g
-    image: 'https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://sunrisespices.in/content/dam/sunrise/product-detail/garam_masala-removebg-preview.png/jcr:content/renditions/web-small.webp',
     category: 'Spices',
     stock: 60,
     rating: 4.8,
