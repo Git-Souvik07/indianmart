@@ -42,17 +42,7 @@ export const products: Product[] = [
     rating: 4.8,
     isPopular: true
   },
- {
-    id: 6,
-    name: 'Turmeric Powder',
-    description: 'Natural turmeric powder for cooking and medicinal purposes.',
-    price: 50, // Price in rupees per 100g
-    image: ',
-    category: 'Spices',
-    stock: 120,
-    rating: 4.5,
-    isPopular: false
-  },
+ 
   {
     id: 69,
     name: 'Apples',
