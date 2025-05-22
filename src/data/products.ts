@@ -289,7 +289,7 @@ export const products: Product[] = [
     name: 'Kashmiri Red Chili Powder',
     description: 'Vibrant red chili powder with medium heat, perfect for authentic color in curries.',
     price: 95,
-    image: 'https://images.pexels.com/photos/8473935/pexels-photo-8473935.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://m.media-amazon.com/images/I/810TfyMSEFL._AC_UF894,1000_QL80_.jpg',
     category: 'Spices',
     stock: 45,
     rating: 4.7,
