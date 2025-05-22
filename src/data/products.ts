@@ -841,7 +841,7 @@ export const products: Product[] = [
     name: 'Curd',
     description: 'Fresh and homemade curd, essential for traditional meals.',
     price: 30, // Price in rupees per 500g
-    image: 'https://images.pexels.com/photos/1346839/pexels-photo-1346839.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTC14sEaVSzfUpeTQIFJFlQ-2rmbf7JhVAkN_jem0pcmrLQWb6aQMzWWynhalPl6OPiyFOSEpR37YqYtUcodkGo8eJG6AXYzduQqg4lKyJzOs0ArDnw9GXXqw',
     category: 'Dairy',
     stock: 80,
     rating: 4.7,
