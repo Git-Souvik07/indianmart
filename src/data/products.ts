@@ -32,6 +32,17 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+    id: 5,
+    name: 'Garam Masala',
+    description: 'Authentic blend of ground spices used in Indian cuisine.',
+    price: 75, // Price in rupees per 100g
+    image: 'https://images.pexels.com/photos/2802527/pexels-photo-2802527.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Spices',
+    stock: 60,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
     id: 69,
     name: 'Apples',
     description: 'Fresh and crispy apples, perfect for snacking and desserts.',
