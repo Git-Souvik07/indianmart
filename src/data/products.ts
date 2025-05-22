@@ -212,7 +212,7 @@ export const products: Product[] = [
     name: 'Hing',
     description: 'Give your meals a strong flavour with just a pinch of goodness',
     price: 80, // Price in rupees per 50g
-    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYlztYbWg161t1VdzCCpiHFPlE6Hb1P-NxW6bgYzSG_CD7zVawlh1KZt9amBB4xFnrPYkeD0K_CGaFXiEU-_tqR5NjEcvrp6p9R8Zw-zqXs9gnJv73A1NKfBk',
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRdg6JVrG1iXwNw1flhTS8sLX_bJ6Woz2WvsCIzDur379aoVOM37GHUbMSelXPQmCDB3m8H23kIKPS6WzM13LGsVLxFohMhPGvnLhfSmbD27zap76UwdvW7oA',
     category: 'Spices',
     stock: 55,
     rating: 4.5,
