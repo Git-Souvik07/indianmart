@@ -308,17 +308,6 @@ export const products: Product[] = [
   },
   
   {
-    id: 9,
-    name: 'Turmeric Powder',
-    description: 'High-quality turmeric powder with excellent color and aroma.',
-    price: 65, // Price in rupees per 100g
-    image: 'https://images.pexels.com/photos/4199097/pexels-photo-4199097.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-    stock: 50,
-    rating: 4.6,
-    isPopular: false
-  },
-  {
     id: 10,
     name: 'Onions',
     description: 'Fresh onions, essential for Indian cooking.',
