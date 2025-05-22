@@ -286,6 +286,17 @@ export const products: Product[] = [
   },
   {
     id: 6,
+    name: 'Kashmiri Red Chili Powder',
+    description: 'Vibrant red chili powder with medium heat, perfect for authentic color in curries.',
+    price: 95,
+    image: 'https://images.pexels.com/photos/8473935/pexels-photo-8473935.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Spices',
+    stock: 45,
+    rating: 4.7,
+    isPopular: true
+  },
+  {
+    id: 6,
     name: 'Potatoes',
     description: 'Fresh potatoes, perfect for curries, fries, and more.',
     price: 30, // Price in rupees per kg
