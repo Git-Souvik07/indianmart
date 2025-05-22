@@ -295,6 +295,83 @@ export const products: Product[] = [
     rating: 4.7,
     isPopular: true
   },
+   {
+    id: 7,
+    name: 'Whole Black Cardamom',
+    description: 'Smoky, earthy pods for rich meat curries and biryanis.',
+    price: 220,
+    image: 'https://images.pexels.com/photos/7658804/pexels-photo-7658804.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Spices',
+    stock: 35,
+    rating: 4.6,
+    isPopular: false
+  },
+  {
+    id: 8,
+    name: 'Turmeric Powder',
+    description: 'Organic golden-hued turmeric with anti-inflammatory properties.',
+    price: 50,
+    image: 'https://images.pexels.com/photos/5946720/pexels-photo-5946720.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Spices',
+    stock: 150,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 9,
+    name: 'Cumin Seeds',
+    description: 'Aromatic jeera for tempering and spice blends.',
+    price: 65,
+    image: 'https://images.pexels.com/photos/4202930/pexels-photo-4202930.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Spices',
+    stock: 90,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 10,
+    name: 'Coriander Powder',
+    description: 'Freshly ground dhania for balanced flavor in gravies.',
+    price: 60,
+    image: 'https://images.pexels.com/photos/8473938/pexels-photo-8473938.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Spices',
+    stock: 75,
+    rating: 4.7,
+    isPopular: false
+  },
+  {
+    id: 11,
+    name: 'Saffron Strands',
+    description: 'Premium Kashmiri keshar for luxurious biryanis and desserts.',
+    price: 3500,
+    image: 'https://images.pexels.com/photos/6726303/pexels-photo-6726303.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Spices',
+    stock: 15,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 12,
+    name: 'Black Mustard Seeds',
+    description: 'Traditional rai for South Indian tempering and pickles.',
+    price: 55,
+    image: 'https://images.pexels.com/photos/7661104/pexels-photo-7661104.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Spices',
+    stock: 60,
+    rating: 4.5,
+    isPopular: false
+  },
+  {
+    id: 13,
+    name: 'Fenugreek Seeds',
+    description: 'Methi seeds for authentic sambar and medicinal uses.',
+    price: 70,
+    image: 'https://images.pexels.com/photos/7661111/pexels-photo-7661111.jpeg?auto=compress&cs=tinysrgb&w=600',
+    category: 'Spices',
+    stock: 40,
+    rating: 4.6,
+    isPopular: true
+  },
   {
     id: 6,
     name: 'Potatoes',
