@@ -1070,7 +1070,7 @@ export const products: Product[] = [
   name: 'Quinoa',
   description: 'Protein-packed and gluten-free quinoa, a superfood grain perfect for salads, soups, and bowls. Known for its light, fluffy texture and rich nutrient profile, including iron and magnesium.',
   price: 400, // Price in rupees per kg
-  image: 'https://example.com/images/quinoa.jpg',
+  image: 'https://organicindia.com/cdn/shop/products/Quinoa_ing.jpg?v=1672736693',
   category: 'Grains',
   stock: 40,
   rating: 4.8,
