@@ -1059,7 +1059,7 @@ export const products: Product[] = [
   name: 'Foxtail Millet',
   description: 'Gluten-free and nutrient-rich foxtail millet, perfect for porridge, pilafs, and healthy snacks. Known for its high fiber content and low glycemic index, making it ideal for health-conscious diets.',
   price: 100, // Price in rupees per kg
-  image: 'https://example.com/images/foxtail_millet.jpg',
+  image: 'https://m.media-amazon.com/images/I/61aB4dzOGiL._AC_UF1000,1000_QL80_.jpg',
   category: 'Grains',
   stock: 50,
   rating: 4.5,
