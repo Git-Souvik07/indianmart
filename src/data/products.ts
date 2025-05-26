@@ -1037,7 +1037,7 @@ export const products: Product[] = [
   name: 'Sona Masoori Rice',
   description: 'Lightweight and aromatic medium-grain rice, ideal for everyday cooking. Known for its delicate texture and versatility in preparing dishes like idlis, dosas, and fried rice.',
   price: 90, // Price in rupees per kg
-  image: 'https://example.com/images/sona_masoori_rice.jpg',
+  image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ7szPEnqDwDemCfwGr0PXj63BfRgWKPPS6_dJ2Mh1O-_GU8kA0Es4HzORxwBsZywDn4jDDFVSUBQ6lqxeryoMmZ6VbcfYpyeGl_krcxa-NItyY3MxyvF5TSw',
   category: 'Grains',
   stock: 120,
   rating: 4.6,
