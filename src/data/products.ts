@@ -1048,7 +1048,7 @@ export const products: Product[] = [
   name: 'Barley',
   description: 'Whole grain barley with a mild nutty flavor. Highly nutritious and versatile, suitable for soups, salads, and making barley water. Packed with dietary fiber and essential nutrients.',
   price: 65, // Price in rupees per kg
-  image: 'https://example.com/images/barley.jpg',
+  image: 'https://m.media-amazon.com/images/I/81SAY-bwdtL._AC_UF1000,1000_QL80_.jpg',
   category: 'Grains',
   stock: 75,
   rating: 4.3,
