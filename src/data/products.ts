@@ -1093,7 +1093,7 @@ export const products: Product[] = [
     name: 'Zucchini',
     description: 'Tender and fresh zucchini, perfect for grilling and baking.',
     price: 90, // Price in rupees
-    image: 'https://www.allthatgrows.in/cdn/shop/articles/Optimized-Feat_image-Zucchini_1_1100x1100.jpg?v=1708340775',
+    image: 'https://m.media-amazon.com/images/I/71VXSqgvvcL.jpg',
     category: 'Vegetables',
     stock: 15,
     rating: 4.2,
