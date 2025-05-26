@@ -1033,6 +1033,62 @@ export const products: Product[] = [
     isPopular: true
   },
   {
+  id: 129,
+  name: 'Sona Masoori Rice',
+  description: 'Lightweight and aromatic medium-grain rice, ideal for everyday cooking. Known for its delicate texture and versatility in preparing dishes like idlis, dosas, and fried rice.',
+  price: 90, // Price in rupees per kg
+  image: 'https://example.com/images/sona_masoori_rice.jpg',
+  category: 'Grains',
+  stock: 120,
+  rating: 4.6,
+  isPopular: true
+},
+{
+  id: 130,
+  name: 'Barley',
+  description: 'Whole grain barley with a mild nutty flavor. Highly nutritious and versatile, suitable for soups, salads, and making barley water. Packed with dietary fiber and essential nutrients.',
+  price: 65, // Price in rupees per kg
+  image: 'https://example.com/images/barley.jpg',
+  category: 'Grains',
+  stock: 75,
+  rating: 4.3,
+  isPopular: false
+},
+{
+  id: 131,
+  name: 'Foxtail Millet',
+  description: 'Gluten-free and nutrient-rich foxtail millet, perfect for porridge, pilafs, and healthy snacks. Known for its high fiber content and low glycemic index, making it ideal for health-conscious diets.',
+  price: 100, // Price in rupees per kg
+  image: 'https://example.com/images/foxtail_millet.jpg',
+  category: 'Grains',
+  stock: 50,
+  rating: 4.5,
+  isPopular: true
+},
+{
+  id: 132,
+  name: 'Quinoa',
+  description: 'Protein-packed and gluten-free quinoa, a superfood grain perfect for salads, soups, and bowls. Known for its light, fluffy texture and rich nutrient profile, including iron and magnesium.',
+  price: 400, // Price in rupees per kg
+  image: 'https://example.com/images/quinoa.jpg',
+  category: 'Grains',
+  stock: 40,
+  rating: 4.8,
+  isPopular: true
+},
+{
+  id: 133,
+  name: 'Maize Flour',
+  description: 'Finely ground maize flour, ideal for making traditional cornbread, rotis, and porridge. Naturally gluten-free and rich in dietary fiber and essential nutrients.',
+  price: 50, // Price in rupees per kg
+  image: 'https://example.com/images/maize_flour.jpg',
+  category: 'Grains',
+  stock: 60,
+  rating: 4.2,
+  isPopular: false
+},
+
+  {
     id: 21,
     name: 'Zucchini',
     description: 'Tender and fresh zucchini, perfect for grilling and baking.',
