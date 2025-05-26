@@ -1,11 +1,6 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
-import { createClient, SupabaseClient, User } from '@supabase/supabase-js';
-
-// Initialize Supabase client
-const supabase = createClient(
-  import.meta.env.VITE_SUPABASE_URL,
-  import.meta.env.VITE_SUPABASE_ANON_KEY
-);
+import { User } from '@supabase/supabase-js';
+import { supabase } from '../lib/supabase';
 
 interface AuthUser {
   id: string;
@@ -19,7 +14,6 @@ interface AuthContextType {
   login: (email: string, password: string) => Promise<{ success: boolean; error?: string }>;
   register: (name: string, email: string, password: string) => Promise<boolean>;
   logout: () => Promise<void>;
-  supabase: SupabaseClient;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -77,15 +71,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       });
 
       if (error) {
-        if (error.message === 'Invalid login credentials') {
-          return {
-            success: false,
-            error: 'The email or password you entered is incorrect. Please check your credentials and try again.'
-          };
-        }
         return {
           success: false,
-          error: 'An error occurred during login. Please try again.'
+          error: error.message
         };
       }
 
@@ -137,8 +125,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       isAuthenticated, 
       login, 
       register, 
-      logout,
-      supabase 
+      logout
     }}>
       {children}
     </AuthContext.Provider>
