@@ -1081,7 +1081,7 @@ export const products: Product[] = [
   name: 'Maize Flour',
   description: 'Finely ground maize flour, ideal for making traditional cornbread, rotis, and porridge. Naturally gluten-free and rich in dietary fiber and essential nutrients.',
   price: 50, // Price in rupees per kg
-  image: 'https://example.com/images/maize_flour.jpg',
+  image: 'https://m.media-amazon.com/images/I/71VXSqgvvcL.jpg',
   category: 'Grains',
   stock: 60,
   rating: 4.2,
@@ -1093,7 +1093,7 @@ export const products: Product[] = [
     name: 'Zucchini',
     description: 'Tender and fresh zucchini, perfect for grilling and baking.',
     price: 90, // Price in rupees
-    image: 'https://m.media-amazon.com/images/I/71VXSqgvvcL.jpg',
+    image: 'https://www.allthatgrows.in/cdn/shop/articles/Optimized-Feat_image-Zucchini_1_1100x1100.jpg?v=1708340775',
     category: 'Vegetables',
     stock: 15,
     rating: 4.2,
