@@ -1114,7 +1114,7 @@ export const products: Product[] = [
     name: 'Dried Cranberries',
     description: 'Sweet and tangy dried cranberries, perfect for salads or snacking.',
     price: 200, // Price in rupees per 250g
-    image: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/nut-dry-fruit/m/v/d/450-premium-californian-roasted-salted-1-pouch-happilo-original-imah9dduzf5mqfgs.jpeg?q=90&crop=false',
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRVG1qQRYbriC1kbg4tZSpX3ES2Gwcahxuz3Z3BWkw7qIor_QFycGRGYqe_Ago_3o8ai1mNaC3QoS29O1KyRzjbCJekYHhn8HnBIbY7HILbUU-AxPiygk5Xwg',
     category: 'Snacks',
     stock: 60,
     rating: 4.5,
