@@ -1087,6 +1087,72 @@ export const products: Product[] = [
   rating: 4.2,
   isPopular: false
 },
+    {
+    id: 134,
+    name: 'Almonds',
+    description: 'Healthy and crunchy almonds, perfect for every occasion.',
+    price: 300, // Price in rupees per 250g
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSgeZlqOQq1SdWePvDdF2IThFgeecO9fLQfholmwBCcGCNEftYcvbbZ_NKZZcdr7hGBfKZmreD3-0X0ZuWElcPGF4jMolwDH9_gbpzd4c_0EWDQ-HN9QvNc',
+    category: 'Snacks',
+    stock: 50,
+    rating: 4.7,
+    isPopular: false
+  },
+  {
+    id: 135,
+    name: 'Salted Pistachios',
+    description: 'Delicious salted pistachios for a healthy snack.',
+    price: 320, // Price in rupees per 250g
+    image: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/nut-dry-fruit/m/v/d/450-premium-californian-roasted-salted-1-pouch-happilo-original-imah9dduzf5mqfgs.jpeg?q=90&crop=false',
+    category: 'Snacks',
+    stock: 30,
+    rating: 4.6,
+    isPopular: true
+  },
+  {
+    id: 136,
+    name: 'Dried Cranberries',
+    description: 'Sweet and tangy dried cranberries, perfect for salads or snacking.',
+    price: 200, // Price in rupees per 250g
+    image: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/nut-dry-fruit/m/v/d/450-premium-californian-roasted-salted-1-pouch-happilo-original-imah9dduzf5mqfgs.jpeg?q=90&crop=false',
+    category: 'Snacks',
+    stock: 60,
+    rating: 4.5,
+    isPopular: false
+  },
+  {
+    id: 137,
+    name: 'Mixed Nuts',
+    description: 'A wholesome mix of cashews, almonds, and pistachios.',
+    price: 400, // Price in rupees per 500g
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTQE22EzSqPAZFhrTu7V9A1oz3d2NqObcbJsgegPHwGFhlIPokQ52o4_vHSCCbVnzhCEKW3sAlT2QgYGwj_GV0D3mFjX85wgxDEtQQQjVJszy_V8pvgo-alig',
+    category: 'Snacks',
+    stock: 20,
+    rating: 4.9,
+    isPopular: true
+  },
+  {
+    id: 138,
+    name: 'Roasted Pumpkin Seeds',
+    description: 'Crunchy roasted pumpkin seeds with a touch of salt.',
+    price: 150, // Price in rupees per 250g
+    image: 'https://m.media-amazon.com/images/I/71o8PkmK+-L._AC_UF1000,1000_QL80_.jpg',
+    category: 'Snacks',
+    stock: 45,
+    rating: 4.4,
+    isPopular: false
+  },
+  {
+    id: 139,
+    name: 'Walnuts',
+    description: 'Premium quality walnuts, perfect for a healthy diet.',
+    price: 350, // Price in rupees per 250g
+    image: 'https://ministryofnuts.in/cdn/shop/files/walnutpdp200g_300x.jpg?v=1704719709',
+    category: 'Snacks',
+    stock: 35,
+    rating: 4.6,
+    isPopular: true
+  },
 
   {
     id: 21,
