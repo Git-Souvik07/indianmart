@@ -1,14 +1,25 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Navigate } from 'react-router-dom';
 import { User, Mail, Phone, Home, Save } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
+import { supabase } from '../lib/supabase';
+
+interface Profile {
+  id: string;
+  name: string;
+  phone: string;
+  address: string;
+  city: string;
+  state: string;
+  pincode: string;
+}
 
 const AccountPage: React.FC = () => {
   const { isAuthenticated, user } = useAuth();
   
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<Profile>({
+    id: user?.id || '',
     name: user?.name || '',
-    email: user?.email || '',
     phone: '',
     address: '',
     city: '',
@@ -18,6 +29,36 @@ const AccountPage: React.FC = () => {
   
   const [isEditing, setIsEditing] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState('');
+  
+  useEffect(() => {
+    if (user?.id) {
+      loadProfile();
+    }
+  }, [user]);
+
+  const loadProfile = async () => {
+    try {
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('*')
+        .eq('id', user?.id)
+        .single();
+
+      if (error) throw error;
+
+      if (data) {
+        setFormData(prev => ({
+          ...prev,
+          ...data,
+          name: data.name || user?.name || ''
+        }));
+      }
+    } catch (error) {
+      console.error('Error loading profile:', error);
+    }
+  };
   
   // If not authenticated, redirect to login
   if (!isAuthenticated) {
@@ -29,19 +70,39 @@ const AccountPage: React.FC = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
   
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    setIsLoading(true);
+    setError('');
     
-    // In a real app, you would send this data to your backend
-    
-    // Show success message
-    setSuccessMessage('Profile updated successfully!');
-    setIsEditing(false);
-    
-    // Clear success message after 3 seconds
-    setTimeout(() => {
-      setSuccessMessage('');
-    }, 3000);
+    try {
+      const { error } = await supabase
+        .from('profiles')
+        .upsert({
+          id: user?.id,
+          name: formData.name,
+          phone: formData.phone,
+          address: formData.address,
+          city: formData.city,
+          state: formData.state,
+          pincode: formData.pincode,
+          updated_at: new Date().toISOString()
+        });
+
+      if (error) throw error;
+      
+      setSuccessMessage('Profile updated successfully!');
+      setIsEditing(false);
+      
+      setTimeout(() => {
+        setSuccessMessage('');
+      }, 3000);
+    } catch (error) {
+      console.error('Error updating profile:', error);
+      setError('Failed to update profile. Please try again.');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -56,7 +117,7 @@ const AccountPage: React.FC = () => {
               <div className="bg-white p-4 rounded-full mb-4">
                 <User className="h-16 w-16 text-green-600" />
               </div>
-              <h2 className="text-2xl font-bold">{user?.name}</h2>
+              <h2 className="text-2xl font-bold">{formData.name}</h2>
               <p className="text-green-100">{user?.email}</p>
             </div>
           </div>
@@ -66,6 +127,12 @@ const AccountPage: React.FC = () => {
             {successMessage && (
               <div className="mb-6 bg-green-50 border-l-4 border-green-500 p-4 text-green-700">
                 {successMessage}
+              </div>
+            )}
+            
+            {error && (
+              <div className="mb-6 bg-red-50 border-l-4 border-red-500 p-4 text-red-700">
+                {error}
               </div>
             )}
             
@@ -94,27 +161,6 @@ const AccountPage: React.FC = () => {
                       id="name"
                       name="name"
                       value={formData.name}
-                      onChange={handleChange}
-                      disabled={!isEditing}
-                      className={`w-full pl-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent ${
-                        !isEditing ? 'bg-gray-50' : 'bg-white'
-                      }`}
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
-                    Email Address
-                  </label>
-                  <div className="relative">
-                    <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                      <Mail className="h-5 w-5 text-gray-400" />
-                    </div>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
                       onChange={handleChange}
                       disabled={!isEditing}
                       className={`w-full pl-10 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent ${
@@ -225,10 +271,11 @@ const AccountPage: React.FC = () => {
                 <div className="flex justify-end">
                   <button
                     type="submit"
-                    className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md"
+                    disabled={isLoading}
+                    className="inline-flex items-center bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-md disabled:opacity-75"
                   >
                     <Save className="h-5 w-5 mr-2" />
-                    Save Changes
+                    {isLoading ? 'Saving...' : 'Save Changes'}
                   </button>
                 </div>
               )}
