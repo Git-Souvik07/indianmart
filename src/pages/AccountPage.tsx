@@ -40,13 +40,18 @@ const AccountPage: React.FC = () => {
 
   const loadProfile = async () => {
     try {
+      setIsLoading(true);
       const { data, error } = await supabase
         .from('profiles')
         .select('*')
         .eq('id', user?.id)
         .single();
 
-      if (error) throw error;
+      if (error) {
+        console.error('Error loading profile:', error);
+        setError('Failed to load profile. Please try again.');
+        return;
+      }
 
       if (data) {
         setFormData(prev => ({
@@ -57,26 +62,32 @@ const AccountPage: React.FC = () => {
       }
     } catch (error) {
       console.error('Error loading profile:', error);
+      setError('Failed to load profile. Please try again.');
+    } finally {
+      setIsLoading(false);
     }
   };
   
   // If not authenticated, redirect to login
   if (!isAuthenticated) {
-    return <Navigate to="/login\" state={{ from: { pathname: '/account' } }} />;
+    return <Navigate to="/login" state={{ from: { pathname: '/account' } }} />;
   }
   
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
+    // Clear any existing error when user starts typing
+    if (error) setError('');
   };
   
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
     setError('');
+    setSuccessMessage('');
     
     try {
-      const { error } = await supabase
+      const { error: updateError } = await supabase
         .from('profiles')
         .upsert({
           id: user?.id,
@@ -87,12 +98,19 @@ const AccountPage: React.FC = () => {
           state: formData.state,
           pincode: formData.pincode,
           updated_at: new Date().toISOString()
+        }, {
+          onConflict: 'id'
         });
 
-      if (error) throw error;
+      if (updateError) {
+        throw updateError;
+      }
       
       setSuccessMessage('Profile updated successfully!');
       setIsEditing(false);
+      
+      // Refresh profile data
+      await loadProfile();
       
       setTimeout(() => {
         setSuccessMessage('');
