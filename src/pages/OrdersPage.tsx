@@ -13,29 +13,7 @@ interface Order {
 }
 
 // Mock order data for demonstration
-const mockOrders: Order[] = [
-  {
-    id: 'ORD123456',
-    date: '2025-04-15',
-    status: 'Delivered',
-    total: 1250.50,
-    items: 4
-  },
-  {
-    id: 'ORD123455',
-    date: '2025-04-10',
-    status: 'Shipped',
-    total: 650.75,
-    items: 2
-  },
-  {
-    id: 'ORD123454',
-    date: '2025-04-01',
-    status: 'Delivered',
-    total: 850.25,
-    items: 3
-  }
-];
+
 
 const OrdersPage: React.FC = () => {
   const { isAuthenticated } = useAuth();
