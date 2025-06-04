@@ -67,7 +67,7 @@ const OrdersPage: React.FC = () => {
 
   // If not authenticated, redirect to login
   if (!isAuthenticated) {
-    return <Navigate to="/login" state={{ from: { pathname: '/orders' } }} />;
+    return <Navigate to="/login\" state={{ from: { pathname: '/orders' } }} />;
   }
 
   const getStatusColor = (status: Order['status']) => {
