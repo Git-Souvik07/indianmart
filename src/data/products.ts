@@ -21,6 +21,178 @@ export const categories = [
 
 export const products: Product[] = [
   {
+    id: 5,
+    name: 'Garam Masala',
+    description: 'Authentic blend of ground spices used in Indian cuisine.',
+    price: 75, // Price in rupees per 100g
+    image: 'https://sunrisespices.in/content/dam/sunrise/product-detail/garam_masala-removebg-preview.png/jcr:content/renditions/web-small.webp',
+    category: 'Spices',
+    stock: 60,
+    rating: 4.8,
+    isPopular: true
+  },
+ {
+    id: 109,
+    name: 'Turmeric Powder',
+    description: 'Natural turmeric powder for cooking and medicinal purposes.',
+    price: 50, // Price in rupees per 100g
+    image: 'https://images.meesho.com/images/products/304801372/qjzx6_512.webp',
+    category: 'Spices',
+    stock: 120,
+    rating: 4.5,
+    isPopular: false
+  },
+{
+    id: 114,
+    name: 'Red Chili Powder',
+    description: 'Fiery red chili powder to spice up your dishes.',
+    price: 65, // Price in rupees per 100g
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQME0Drd-y7o4ZXcm67SfaQrl1oONntLPo1TEVEvEZJQzJZ0iclpdU5Vk8brsQTrW5bvJJmmnhIiKVSu0UisV26JDr083hX4sOKt3LLtgRuMXrcvrXytxNmVA',
+    category: 'Spices',
+    stock: 90,
+    rating: 4.4,
+    isPopular: true
+  },
+{
+    id: 119,
+    name: 'Bay Leaves',
+    description: 'Dried bay leaves for enhancing the flavor of your dishes.',
+    price: 50, // Price in rupees per 100g
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRgifDkFXO8u_qvjZZDEdMTnDhF9ZeiyR8NUVTFAKcp9La46HW0OuPOeTAGsx_NXxOuzmitRI9yi94P7_bExY1FINKwYsvs3wl4pNjOf4VAy5JcXh14EKNn',
+    category: 'Spices',
+    stock: 95,
+    rating: 4.3,
+    isPopular: true
+  },
+{
+    id: 111,
+    name: 'Black Pepper',
+    description: 'Whole black peppercorns for bold and sharp flavor.',
+    price: 100, // Price in rupees per 100g
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ1arwXWA4jYpo-2umzBXvyGeQ1e0CO1t3cvHLa6ofV5ePGVdR_YLuzG3ZukQ0I6IkZ9-zAgcfbqZj4e06MwilRU_uHAYgTz1C5Eu77DHZwq0o7PDMOeCA-',
+    category: 'Spices',
+    stock: 80,
+    rating: 4.6,
+    isPopular: false
+  },
+
+
+{  
+ id: 137,
+    name: 'Mixed Nuts',
+    description: 'A wholesome mix of cashews, almonds, and pistachios.',
+    price: 400, // Price in rupees per 500g
+    image: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTQE22EzSqPAZFhrTu7V9A1oz3d2NqObcbJsgegPHwGFhlIPokQ52o4_vHSCCbVnzhCEKW3sAlT2QgYGwj_GV0D3mFjX85wgxDEtQQQjVJszy_V8pvgo-alig',
+    category: 'Snacks',
+    stock: 20,
+    rating: 4.9,
+    isPopular: true
+  },
+{
+    id: 135,
+    name: 'Salted Pistachios',
+    description: 'Delicious salted pistachios for a healthy snack.',
+    price: 320, // Price in rupees per 250g
+    image: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/nut-dry-fruit/m/v/d/450-premium-californian-roasted-salted-1-pouch-happilo-original-imah9dduzf5mqfgs.jpeg?q=90&crop=false',
+    category: 'Snacks',
+    stock: 30,
+    rating: 4.6,
+    isPopular: true
+  },
+{
+    id: 12,
+    name: 'Cashew Nuts',
+    description: 'Premium quality cashew nuts for snacking and cooking.',
+    price: 250, // Price in rupees per 250g
+    image: 'https://nuttygritties.com/cdn/shop/files/Artboard6_66b49457-1032-4406-b6fe-f39d8d90ee04.jpg?v=1687942372',
+    category: 'Snacks',
+    stock: 40,
+    rating: 4.8,
+    isPopular: true
+  },
+ {
+    id: 134,
+    name: 'Almonds',
+    description: 'Healthy and crunchy almonds, perfect for every occasion.',
+    price: 300, // Price in rupees per 250g
+    image: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSgeZlqOQq1SdWePvDdF2IThFgeecO9fLQfholmwBCcGCNEftYcvbbZ_NKZZcdr7hGBfKZmreD3-0X0ZuWElcPGF4jMolwDH9_gbpzd4c_0EWDQ-HN9QvNc',
+    category: 'Snacks',
+    stock: 50,
+    rating: 4.7,
+    isPopular: false
+  },
+{
+    id: 136,
+    name: 'Dried Cranberries',
+    description: 'Sweet and tangy dried cranberries, perfect for salads or snacking.',
+    price: 200, // Price in rupees per 250g
+    image: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRVG1qQRYbriC1kbg4tZSpX3ES2Gwcahxuz3Z3BWkw7qIor_QFycGRGYqe_Ago_3o8ai1mNaC3QoS29O1KyRzjbCJekYHhn8HnBIbY7HILbUU-AxPiygk5Xwg',
+    category: 'Snacks',
+    stock: 60,
+    rating: 4.5,
+    isPopular: false
+  },
+
+
+
+
+{
+  id: 129,
+  name: 'Sona Masoori Rice',
+  description: 'Lightweight and aromatic medium-grain rice, ideal for everyday cooking. Known for its delicate texture and versatility in preparing dishes like idlis, dosas, and fried rice.',
+  price: 90, // Price in rupees per kg
+  image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ7szPEnqDwDemCfwGr0PXj63BfRgWKPPS6_dJ2Mh1O-_GU8kA0Es4HzORxwBsZywDn4jDDFVSUBQ6lqxeryoMmZ6VbcfYpyeGl_krcxa-NItyY3MxyvF5TSw',
+  category: 'Grains',
+  stock: 120,
+  rating: 4.6,
+  isPopular: true
+},
+{
+  id: 130,
+  name: 'Barley',
+  description: 'Whole grain barley with a mild nutty flavor. Highly nutritious and versatile, suitable for soups, salads, and making barley water. Packed with dietary fiber and essential nutrients.',
+  price: 65, // Price in rupees per kg
+  image: 'https://m.media-amazon.com/images/I/81SAY-bwdtL._AC_UF1000,1000_QL80_.jpg',
+  category: 'Grains',
+  stock: 75,
+  rating: 4.3,
+  isPopular: false
+},
+{
+  id: 133,
+  name: 'Maize Flour',
+  description: 'Finely ground maize flour, ideal for making traditional cornbread, rotis, and porridge. Naturally gluten-free and rich in dietary fiber and essential nutrients.',
+  price: 50, // Price in rupees per kg
+  image: 'https://m.media-amazon.com/images/I/71VXSqgvvcL.jpg',
+  category: 'Grains',
+  stock: 60,
+  rating: 4.2,
+  isPopular: false
+},
+{
+    id: 11,
+    name: 'Whole Wheat Atta',
+    description: 'Finely ground whole wheat flour for chapatis and rotis.',
+    price: 55, // Price in rupees per kg
+    image: 'https://www.srisritattva.com/cdn/shop/files/01_WheatA_Content_1kg-01_b9978920-8de4-4a96-bb33-8d24d576e41b.jpg?v=1684233485&width=1445',
+    category: 'Grains',
+    stock: 60,
+    rating: 4.4,
+    isPopular: true
+  },
+  {
+    id: 3,
+    name: 'Basmati Rice',
+    description: 'Premium long grain basmati rice, aromatic and perfect for biryanis.',
+    price: 120, // Price in rupees per kg
+    image: 'https://pureandsure.in/cdn/shop/files/brown-basmati-rice.jpg?v=1727174739',
+    category: 'Grains',
+    stock: 100,
+    rating: 4.2,
+    isPopular: false
+  },
+
+  {
 id: 69,
 name: 'Apples',
 description: 'Fresh and crispy apples, perfect for snacking and desserts.',
