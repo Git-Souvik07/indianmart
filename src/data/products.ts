@@ -20,6 +20,61 @@ export const categories = [
 ];
 
 export const products: Product[] = [
+  {
+id: 69,
+name: 'Apples',
+description: 'Fresh and crispy apples, perfect for snacking and desserts.',
+price: 150, // Price in rupees per kg
+image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ868djAR5mIlAFnnjF---4paarCg48aQTr-g&s',
+category: 'Fruits',
+stock: 50,
+rating: 4.7,
+isPopular: true
+},
+{
+id: 70,
+name: 'Oranges',
+description: 'Juicy and tangy oranges, full of Vitamin C.',
+price: 80, // Price in rupees per kg
+image: 'https://drearth.com/wp-content/uploads/Oranges-iStock-1493917402.jpg',
+category: 'Fruits',
+stock: 60,
+rating: 4.5,
+isPopular: true
+},
+{
+id: 71,
+name: 'Mangoes',
+description: 'Sweet and juicy mangoes, the king of fruits.',
+price: 120, // Price in rupees per kg
+image: 'https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2022/01/mangoes_what_to_know_1296x728_header-1024x575.jpg',
+category: 'Fruits',
+stock: 40,
+rating: 4.8,
+isPopular: true
+},
+{
+id: 74,
+name: 'Grapes',
+description: 'Fresh and juicy grapes, perfect for snacking and juicing.',
+price: 90, // Price in rupees per kg
+image: 'https://www.foodrepublic.com/img/gallery/15-types-of-grapes-to-know-eat-and-drink/intro-1743188162.jpg',
+category: 'Fruits',
+stock: 50,
+rating: 4.5,
+isPopular: false
+},
+{
+id: 77,
+name: 'Watermelons',
+description: 'Refreshing and hydrating watermelons, perfect for summer.',
+price: 40, // Price in rupees per kg
+image: 'https://cdn.mos.cms.futurecdn.net/SxQpyZbdPoWZuXmxKiJ3uF.jpg',
+category: 'Fruits',
+stock: 70,
+rating: 4.6,
+isPopular: true
+},
  {
 id: 1,
 name: 'Fresh Tomatoes',
