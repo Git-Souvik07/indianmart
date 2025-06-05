@@ -22,39 +22,7 @@ export const categories = [
 export const products: Product[] = [
   // src/data/products.js
 export const products = [
-  {
-    id: 1,
-    name: 'Fresh Tomatoes',
-    description: 'Organically grown fresh red tomatoes, perfect for salads and curries.',
-    price: 40,
-    image: 'https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Vegetables',
-  },
-  {
-    id: 2,
-    name: 'Green Apples',
-    description: 'Crisp and juicy green apples, rich in vitamins.',
-    price: 120,
-    image: 'https://images.pexels.com/photos/103631/pexels-photo-103631.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Fruits',
-  },
-  {
-    id: 3,
-    name: 'Whole Milk',
-    description: 'Fresh and creamy whole milk, perfect for your daily needs.',
-    price: 60,
-    image: 'https://images.pexels.com/photos/594749/pexels-photo-594749.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Dairy',
-  },
-  {
-    id: 4,
-    name: 'Organic Turmeric',
-    description: 'High-quality organic turmeric powder for vibrant flavors.',
-    price: 150,
-    image: 'https://images.pexels.com/photos/541216/pexels-photo-541216.jpeg?auto=compress&cs=tinysrgb&w=600',
-    category: 'Spices',
-  },
-
+ 
 ];
 
 export const getProductById = (id: number): Product | undefined => {
