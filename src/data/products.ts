@@ -22,7 +22,61 @@ export const categories = [
 export const products: Product[] = [
   // src/data/products.js
 export const products = [
- 
+ {
+id: 1,
+name: 'Fresh Tomatoes',
+description: 'Organically grown fresh red tomatoes, perfect for salads and curries.',
+price: 40, // Price in rupees
+image: 'https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=600',
+category: 'Vegetables',
+stock: 50,
+rating: 4.5,
+isPopular: true
+},
+{
+id: 6,
+name: 'Potatoes',
+description: 'Fresh potatoes, perfect for curries, fries, and more.',
+price: 30, // Price in rupees per kg
+image: 'https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=600',
+category: 'Vegetables',
+stock: 80,
+rating: 4.0,
+isPopular: false
+},
+{
+id: 10,
+name: 'Onions',
+description: 'Fresh onions, essential for Indian cooking.',
+price: 35, // Price in rupees per kg
+image: 'https://images.pexels.com/photos/4197444/pexels-photo-4197444.jpeg?auto=compress&cs=tinysrgb&w=600',
+category: 'Vegetables',
+stock: 100,
+rating: 4.3,
+isPopular: false
+},
+{
+id: 36,
+name: 'Chili Peppers',
+description: 'Spicy and fresh chili peppers, great for adding heat to dishes.',
+price: 50, // Price in rupees
+image: 'https://i.pinimg.com/736x/e3/65/73/e36573f6b3bea15df63ad145d407a99a.jpg',
+category: 'Vegetables',
+stock: 25,
+rating: 4.7,
+isPopular: true
+},
+{
+id: 15,
+name: 'Cauliflower',
+description: 'Fresh white cauliflower, perfect for curries and roasting.',
+price: 45, // Price in rupees
+image: 'https://feashts.com/wp-content/uploads/2025/01/Snapshot_4.jpg',
+category: 'Vegetables',
+stock: 25,
+rating: 4.6,
+isPopular: true
+},
 ];
 
 export const getProductById = (id: number): Product | undefined => {
