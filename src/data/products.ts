@@ -54,7 +54,6 @@ export const products = [
     image: 'https://images.pexels.com/photos/541216/pexels-photo-541216.jpeg?auto=compress&cs=tinysrgb&w=600',
     category: 'Spices',
   }
-];
 
 ];
 
