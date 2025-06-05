@@ -75,6 +75,62 @@ stock: 70,
 rating: 4.6,
 isPopular: true
 },
+  {
+id: 7,
+name: 'Amul Butter',
+description: 'Creamy and delicious butter, perfect for your morning toast.',
+price: 50, // Price in rupees per 100g
+image: 'https://m.media-amazon.com/images/I/51KrxEKN58L._AC_UF894,1000_QL80_.jpg',
+category: 'Dairy',
+stock: 45,
+rating: 4.5,
+isPopular: true
+},
+
+{
+id: 4,
+name: 'Paneer',
+description: 'Fresh homemade paneer, source of protein and calcium.',
+price: 80, // Price in rupees per 200g
+image: 'https://m.media-amazon.com/images/I/81hD14MN91L.jpg',
+category: 'Dairy',
+stock: 40,
+rating: 4.7,
+isPopular: true
+},
+{
+    id: 89,
+    name: 'Milk',
+    description: 'Fresh and pure cows milk essential for a healthy diet.',
+    price: 50, // Price in rupees per liter
+    image: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSc2ZWKFC1rsFIF4jHkASrQMqL13bS0vqEkVV2cP3YfN5saKQcwpP-     WP7QrQfmIWQ6cnRh2IU4QsY2vYEqcmlKu1MOemOlSsrezS_tcFxCBNhjXWqmmnymV',
+    category: 'Dairy',
+    stock: 100,
+    rating: 4.8,
+    isPopular: true
+  },
+  {
+    id: 91,
+    name: 'Cheese',
+    description: 'Fresh and flavorful cheese, ideal for sandwiches and pizzas.',
+    price: 120, // Price in rupees per 200g
+    image: 'https://m.media-amazon.com/images/I/61+AzywctoL._AC_UF894,1000_QL80_.jpg',
+    category: 'Dairy',
+    stock: 50,
+    rating: 4.6,
+    isPopular: true
+  },
+{
+    id: 93,
+    name: 'Cream',
+    description: 'Rich and smooth cream, perfect for cooking and desserts.',
+    price: 60, // Price in rupees per 200ml
+    image: 'https://cdn.grofers.com/app/assets/products/sliding_images/jpeg/740347d8-80b9-40eb-8de4-72b283acb7bc.jpg?ts=1706182141%27',
+    category: 'Dairy',
+    stock: 30,
+    rating: 4.4,
+    isPopular: false
+  },
  {
 id: 1,
 name: 'Fresh Tomatoes',
