@@ -21,7 +21,7 @@ export const categories = [
 
 export const products: Product[] = [
   {
-   
+  }
 ];
 
 export const getProductById = (id: number): Product | undefined => {
