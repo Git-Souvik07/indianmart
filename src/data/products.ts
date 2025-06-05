@@ -20,8 +20,6 @@ export const categories = [
 ];
 
 export const products: Product[] = [
-  // src/data/products.js
-export const products = [
  {
 id: 1,
 name: 'Fresh Tomatoes',
