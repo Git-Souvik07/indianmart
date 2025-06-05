@@ -76,7 +76,7 @@ category: 'Vegetables',
 stock: 25,
 rating: 4.6,
 isPopular: true
-},
+}
 ];
 
 export const getProductById = (id: number): Product | undefined => {
